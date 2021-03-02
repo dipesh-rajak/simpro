@@ -1,0 +1,1383 @@
+[2021-02-18 15:07:48] local.DEBUG: contact zoho webhook received {"OrgID":"740974695","ID":"4795954000000455191"} 
+[2021-02-18 15:07:48] local.DEBUG: Contact data: 
+Array
+(
+    [Email] => test45451@fdbc.com
+    [Visitor_Score] => 
+    [Mailing_State] => 
+    [Other_State] => New Delhi
+    [Other_Country] => India
+    [Unsubscribed_Mode] => 
+    [Work_Phone] => 
+    [Mailing_Country] => 
+    [First_Visited_URL] => 
+    [Days_Visited] => 
+    [Position] => 4748384000000459007
+    [Other_City] => New Delhi
+    [Home_Phone] => 
+    [Customer_ID] => 
+    [Last_Visited_Time] => 
+    [Mobile_Phone] => 
+    [Description] => 
+    [Mailing_Zip] => 
+    [Number_Of_Chats] => 
+    [Primary_Contact] => 
+    [Other_Zip] => 110096
+    [Mailing_Street] => 
+    [Average_Time_Spent_Minutes] => 
+    [Salutation] => 
+    [Simpro_ID] => 
+    [First_Name] => test
+    [Full_Name] => test test
+    [Record_Image] => 
+    [Phone] => 
+    [Notes] => test
+    [Mailing_City] => 
+    [Home_Phone1] => 
+    [Unsubscribed_Time] => 
+    [Simpro_URL] => 
+    [Other_Street] => Gharauli gau
+    [First_Visited_Time] => 
+    [Last_Name] => test
+    [Referrer] => 
+    [Lead_Source] => Advertisement
+    [Fax] => 
+)
+  
+[2021-02-18 15:07:48] local.DEBUG: Contact id: 
+4795954000000455191  
+[2021-02-18 15:08:11] local.DEBUG: contact zoho webhook received {"OrgID":"740974695","ID":"4795954000000455191"} 
+[2021-02-18 15:08:12] local.DEBUG: Contact data: 
+Array
+(
+    [Email] => test45451@fdbc.com
+    [Visitor_Score] => 
+    [Mailing_State] => 
+    [Other_State] => New Delhi
+    [Other_Country] => India
+    [Unsubscribed_Mode] => 
+    [Work_Phone] => 
+    [Mailing_Country] => 
+    [First_Visited_URL] => 
+    [Days_Visited] => 
+    [Position] => 4748384000000459007
+    [Other_City] => New Delhi
+    [Home_Phone] => 
+    [Customer_ID] => 4795954000000426034
+    [Last_Visited_Time] => 
+    [Mobile_Phone] => 
+    [Description] => 
+    [Mailing_Zip] => 
+    [Number_Of_Chats] => 
+    [Primary_Contact] => 
+    [Other_Zip] => 110096
+    [Mailing_Street] => 
+    [Average_Time_Spent_Minutes] => 
+    [Salutation] => 
+    [Simpro_ID] => 
+    [First_Name] => test
+    [Full_Name] => test test
+    [Record_Image] => 
+    [Phone] => 
+    [Notes] => test
+    [Mailing_City] => 
+    [Home_Phone1] => 
+    [Unsubscribed_Time] => 
+    [Simpro_URL] => 
+    [Other_Street] => Gharauli gau
+    [First_Visited_Time] => 
+    [Last_Name] => test
+    [Referrer] => 
+    [Lead_Source] => Advertisement
+    [Fax] => 
+)
+  
+[2021-02-18 15:08:12] local.DEBUG: Contact id: 
+4795954000000455191  
+[2021-02-18 15:08:12] local.DEBUG: inserted Contact data: 
+App\Models\Contact Object
+(
+    [fillable:protected] => Array
+        (
+            [0] => zoho_reference_id
+            [1] => zoho_site_id
+            [2] => company_name
+            [3] => zoho_reference_id
+            [4] => title
+            [5] => given_name
+            [6] => family_name
+            [7] => email
+            [8] => workphone
+            [9] => fax
+            [10] => cellphone
+            [11] => altphone
+            [12] => department
+            [13] => position
+            [14] => altphone
+            [15] => notes
+        )
+
+    [guarded:protected] => Array
+        (
+            [0] => id
+        )
+
+    [casts:protected] => Array
+        (
+            [archived] => boolean
+        )
+
+    [connection:protected] => mysql
+    [table:protected] => contacts
+    [primaryKey:protected] => id
+    [keyType:protected] => int
+    [incrementing] => 1
+    [with:protected] => Array
+        (
+        )
+
+    [withCount:protected] => Array
+        (
+        )
+
+    [perPage:protected] => 15
+    [exists] => 1
+    [wasRecentlyCreated] => 1
+    [attributes:protected] => Array
+        (
+            [zoho_reference_id] => 4795954000000455191
+            [zoho_site_id] => 4795954000000426034
+            [company_name] => 
+            [title] => 
+            [given_name] => test
+            [family_name] => test
+            [email] => test45451@fdbc.com
+            [workphone] => 
+            [fax] => 
+            [cellphone] => 
+            [altphone] => 
+            [department] => 
+            [position] => 4748384000000459007
+            [notes] => test
+            [updated_at] => 2021-02-18 15:08:12
+            [created_at] => 2021-02-18 15:08:12
+            [id] => 114
+        )
+
+    [original:protected] => Array
+        (
+            [zoho_reference_id] => 4795954000000455191
+            [zoho_site_id] => 4795954000000426034
+            [company_name] => 
+            [title] => 
+            [given_name] => test
+            [family_name] => test
+            [email] => test45451@fdbc.com
+            [workphone] => 
+            [fax] => 
+            [cellphone] => 
+            [altphone] => 
+            [department] => 
+            [position] => 4748384000000459007
+            [notes] => test
+            [updated_at] => 2021-02-18 15:08:12
+            [created_at] => 2021-02-18 15:08:12
+            [id] => 114
+        )
+
+    [changes:protected] => Array
+        (
+        )
+
+    [classCastCache:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+        )
+
+    [dateFormat:protected] => 
+    [appends:protected] => Array
+        (
+        )
+
+    [dispatchesEvents:protected] => Array
+        (
+        )
+
+    [observables:protected] => Array
+        (
+        )
+
+    [relations:protected] => Array
+        (
+        )
+
+    [touches:protected] => Array
+        (
+        )
+
+    [timestamps] => 1
+    [hidden:protected] => Array
+        (
+        )
+
+    [visible:protected] => Array
+        (
+        )
+
+)
+  
+[2021-02-18 15:08:13] local.ERROR: App\Jobs\ExportContactToSimPro:128 Error Occurred. Client error: `POST https://elementtest.simprosuite.com/api/v1.0/companies/0/sites/529/contacts/` resulted in a `422 Unprocessable Entity` response:
+{"errors":[{"path":"\/PrimaryContact","message":"Must be a boolean","value":null}]}
+  
+[2021-02-18 15:12:05] local.DEBUG: contact zoho webhook received {"OrgID":"740974695","ID":"4795954000000455219"} 
+[2021-02-18 15:12:05] local.DEBUG: Contact data: 
+Array
+(
+    [Email] => test2321321@fdbc.com
+    [Visitor_Score] => 
+    [Mailing_State] => 
+    [Other_State] => New Delhi
+    [Other_Country] => India
+    [Unsubscribed_Mode] => 
+    [Work_Phone] => 
+    [Mailing_Country] => 
+    [First_Visited_URL] => 
+    [Days_Visited] => 
+    [Position] => 
+    [Other_City] => New Delhi
+    [Home_Phone] => 
+    [Customer_ID] => 4795954000000426034
+    [Last_Visited_Time] => 
+    [Mobile_Phone] => 
+    [Description] => 
+    [Mailing_Zip] => 
+    [Number_Of_Chats] => 
+    [Primary_Contact] => 
+    [Other_Zip] => 110096
+    [Mailing_Street] => 
+    [Average_Time_Spent_Minutes] => 
+    [Salutation] => 
+    [Simpro_ID] => 
+    [First_Name] => test
+    [Full_Name] => test test123213
+    [Record_Image] => 
+    [Phone] => 
+    [Notes] => 
+    [Mailing_City] => 
+    [Home_Phone1] => 
+    [Unsubscribed_Time] => 
+    [Simpro_URL] => 
+    [Other_Street] => Gharauli gau
+    [First_Visited_Time] => 
+    [Last_Name] => test123213
+    [Referrer] => 
+    [Lead_Source] => 
+    [Fax] => 
+)
+  
+[2021-02-18 15:12:05] local.DEBUG: Contact id: 
+4795954000000455219  
+[2021-02-18 15:12:05] local.DEBUG: inserted Contact data: 
+App\Models\Contact Object
+(
+    [fillable:protected] => Array
+        (
+            [0] => zoho_reference_id
+            [1] => zoho_site_id
+            [2] => company_name
+            [3] => zoho_reference_id
+            [4] => title
+            [5] => given_name
+            [6] => family_name
+            [7] => email
+            [8] => workphone
+            [9] => fax
+            [10] => cellphone
+            [11] => altphone
+            [12] => department
+            [13] => position
+            [14] => altphone
+            [15] => notes
+        )
+
+    [guarded:protected] => Array
+        (
+            [0] => id
+        )
+
+    [casts:protected] => Array
+        (
+            [archived] => boolean
+        )
+
+    [connection:protected] => mysql
+    [table:protected] => contacts
+    [primaryKey:protected] => id
+    [keyType:protected] => int
+    [incrementing] => 1
+    [with:protected] => Array
+        (
+        )
+
+    [withCount:protected] => Array
+        (
+        )
+
+    [perPage:protected] => 15
+    [exists] => 1
+    [wasRecentlyCreated] => 1
+    [attributes:protected] => Array
+        (
+            [zoho_reference_id] => 4795954000000455219
+            [zoho_site_id] => 4795954000000426034
+            [company_name] => 
+            [title] => 
+            [given_name] => test
+            [family_name] => test123213
+            [email] => test2321321@fdbc.com
+            [workphone] => 
+            [fax] => 
+            [cellphone] => 
+            [altphone] => 
+            [department] => 
+            [position] => 
+            [notes] => 
+            [updated_at] => 2021-02-18 15:12:05
+            [created_at] => 2021-02-18 15:12:05
+            [id] => 115
+        )
+
+    [original:protected] => Array
+        (
+            [zoho_reference_id] => 4795954000000455219
+            [zoho_site_id] => 4795954000000426034
+            [company_name] => 
+            [title] => 
+            [given_name] => test
+            [family_name] => test123213
+            [email] => test2321321@fdbc.com
+            [workphone] => 
+            [fax] => 
+            [cellphone] => 
+            [altphone] => 
+            [department] => 
+            [position] => 
+            [notes] => 
+            [updated_at] => 2021-02-18 15:12:05
+            [created_at] => 2021-02-18 15:12:05
+            [id] => 115
+        )
+
+    [changes:protected] => Array
+        (
+        )
+
+    [classCastCache:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+        )
+
+    [dateFormat:protected] => 
+    [appends:protected] => Array
+        (
+        )
+
+    [dispatchesEvents:protected] => Array
+        (
+        )
+
+    [observables:protected] => Array
+        (
+        )
+
+    [relations:protected] => Array
+        (
+        )
+
+    [touches:protected] => Array
+        (
+        )
+
+    [timestamps] => 1
+    [hidden:protected] => Array
+        (
+        )
+
+    [visible:protected] => Array
+        (
+        )
+
+)
+  
+[2021-02-18 15:12:06] local.DEBUG: stdClass Object
+(
+    [ID] => 295
+    [Title] => 
+    [GivenName] => test
+    [FamilyName] => test123213
+    [Email] => test2321321@fdbc.com
+    [WorkPhone] => 
+    [Fax] => 
+    [CellPhone] => 
+    [AltPhone] => 
+    [Department] => 
+    [Position] => 
+    [Notes] => 
+    [CustomFields] => Array
+        (
+        )
+
+    [DateModified] => 2021-02-19 01:12:06.40837+10
+    [Contact] => stdClass Object
+        (
+            [ID] => 295
+            [GivenName] => test
+            [FamilyName] => test123213
+            [Email] => test2321321@fdbc.com
+        )
+
+    [PrimaryContact] => 
+)
+  
+[2021-02-18 15:16:43] local.DEBUG: Sites zoho webhook received {"OrgID":"740974695","ID":"4795954000000426034"} 
+[2021-02-18 15:16:44] local.DEBUG: App\Http\Controllers\ZohoWebhookController:615: found address id: 482  
+[2021-02-18 15:16:44] local.DEBUG: App\Http\Controllers\ZohoWebhookController:622: address 482 updated in database  
+[2021-02-18 15:16:44] local.DEBUG: App\Http\Controllers\ZohoWebhookController:626: found address id: 481  
+[2021-02-18 15:16:44] local.DEBUG: App\Http\Controllers\ZohoWebhookController:633: billing address 481 updated in database  
+[2021-02-18 15:16:44] local.DEBUG: simpro {"id":278,"sim_id":529,"zoho_id":4795954000000426034,"name":"account 6:36 test","subscription_service_available":"0","billing_contact":"44805","address_id":482,"billingAddress_id":481,"public_notes":"","private_notes":"","archived":false,"customer_id":229,"created_at":"2021-02-18T13:06:55.000000Z","updated_at":"2021-02-18T15:16:44.000000Z","address":{"id":482,"customer":229,"address":"3 Mcauley Dr","city":"Ashland","state":"OH","postalCode":"44805","country":"United States","type":"billing","created_at":"2021-02-18T13:06:50.000000Z","updated_at":"2021-02-18T15:16:44.000000Z"},"billing_address":{"id":481,"customer":229,"address":"3 Mcauley Dr","city":"Ashland","state":"OH","postalCode":"44805","country":"United States","type":"address","created_at":"2021-02-18T13:06:50.000000Z","updated_at":"2021-02-18T15:16:44.000000Z"},"customer":{"id":229,"sim_id":379,"sim_lead_id":null,"zoho_reference_id":4795954000000455083,"zoho_sub_id":null,"company_name":"","title":"","given_name":"account 6:36","family_name":"test","email":"","phone":"","mobile":"","altphone":"","description":"","is_company":true,"source":"Adwards  Wireless Home","dnd":null,"customer_type":"customer","archived":false,"ein":null,"website":null,"fax":null,"company_number":null,"deleted_at":null,"created_at":"2021-02-18T13:06:50.000000Z","updated_at":"2021-02-18T13:06:52.000000Z","have_subscription":false,"salesperson_id":null,"zoho_contact_id":null}}  
+[2021-02-18 15:16:45] local.DEBUG:   
+[2021-02-18 15:16:45] local.DEBUG: 529  
+[2021-02-18 15:17:38] local.DEBUG: contact zoho webhook received {"OrgID":"740974695","ID":"4795954000000440207"} 
+[2021-02-18 15:17:38] local.DEBUG: Contact data: 
+Array
+(
+    [Email] => executive@gmail.com
+    [Visitor_Score] => 
+    [Mailing_State] => OH
+    [Other_State] => OH
+    [Other_Country] => United States
+    [Unsubscribed_Mode] => 
+    [Work_Phone] => +1 62 8898789999
+    [Mailing_Country] => United States
+    [First_Visited_URL] => 
+    [Days_Visited] => 
+    [Position] => executive
+    [Other_City] => Ashland
+    [Home_Phone] => 
+    [Customer_ID] => 4795954000000426034
+    [Last_Visited_Time] => 
+    [Mobile_Phone] => 
+    [Description] => kdnckndk
+    [Mailing_Zip] => 44805
+    [Number_Of_Chats] => 
+    [Primary_Contact] => 1
+    [Other_Zip] => 44805
+    [Mailing_Street] => 3 Mcauley Dr
+    [Average_Time_Spent_Minutes] => 
+    [Salutation] => 
+    [Simpro_ID] => 874584858
+    [First_Name] => test
+    [Full_Name] => test test
+    [Record_Image] => 
+    [Phone] => +81 788787889892
+    [Notes] => hi test this is test notes.
+    [Mailing_City] => Ashland
+    [Home_Phone1] => 
+    [Unsubscribed_Time] => 
+    [Simpro_URL] => 
+    [Other_Street] => 3 Mcauley Dr
+    [First_Visited_Time] => 
+    [Last_Name] => test
+    [Referrer] => 
+    [Lead_Source] => 
+    [Fax] => 
+)
+  
+[2021-02-18 15:17:38] local.DEBUG: Contact id: 
+4795954000000440207  
+[2021-02-18 15:17:38] local.DEBUG: inserted Contact data: 
+App\Models\Contact Object
+(
+    [fillable:protected] => Array
+        (
+            [0] => zoho_reference_id
+            [1] => zoho_site_id
+            [2] => company_name
+            [3] => zoho_reference_id
+            [4] => title
+            [5] => given_name
+            [6] => family_name
+            [7] => email
+            [8] => workphone
+            [9] => fax
+            [10] => cellphone
+            [11] => altphone
+            [12] => department
+            [13] => position
+            [14] => altphone
+            [15] => notes
+        )
+
+    [guarded:protected] => Array
+        (
+            [0] => id
+        )
+
+    [casts:protected] => Array
+        (
+            [archived] => boolean
+        )
+
+    [connection:protected] => mysql
+    [table:protected] => contacts
+    [primaryKey:protected] => id
+    [keyType:protected] => int
+    [incrementing] => 1
+    [with:protected] => Array
+        (
+        )
+
+    [withCount:protected] => Array
+        (
+        )
+
+    [perPage:protected] => 15
+    [exists] => 1
+    [wasRecentlyCreated] => 1
+    [attributes:protected] => Array
+        (
+            [zoho_reference_id] => 4795954000000440207
+            [zoho_site_id] => 4795954000000426034
+            [company_name] => 
+            [title] => 
+            [given_name] => test
+            [family_name] => test
+            [email] => executive@gmail.com
+            [workphone] => +1 62 8898789999
+            [fax] => 
+            [cellphone] => 
+            [altphone] => 
+            [department] => 
+            [position] => executive
+            [notes] => hi test this is test notes.
+            [updated_at] => 2021-02-18 15:17:38
+            [created_at] => 2021-02-18 15:17:38
+            [id] => 116
+        )
+
+    [original:protected] => Array
+        (
+            [zoho_reference_id] => 4795954000000440207
+            [zoho_site_id] => 4795954000000426034
+            [company_name] => 
+            [title] => 
+            [given_name] => test
+            [family_name] => test
+            [email] => executive@gmail.com
+            [workphone] => +1 62 8898789999
+            [fax] => 
+            [cellphone] => 
+            [altphone] => 
+            [department] => 
+            [position] => executive
+            [notes] => hi test this is test notes.
+            [updated_at] => 2021-02-18 15:17:38
+            [created_at] => 2021-02-18 15:17:38
+            [id] => 116
+        )
+
+    [changes:protected] => Array
+        (
+        )
+
+    [classCastCache:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+        )
+
+    [dateFormat:protected] => 
+    [appends:protected] => Array
+        (
+        )
+
+    [dispatchesEvents:protected] => Array
+        (
+        )
+
+    [observables:protected] => Array
+        (
+        )
+
+    [relations:protected] => Array
+        (
+        )
+
+    [touches:protected] => Array
+        (
+        )
+
+    [timestamps] => 1
+    [hidden:protected] => Array
+        (
+        )
+
+    [visible:protected] => Array
+        (
+        )
+
+)
+  
+[2021-02-18 15:17:39] local.DEBUG: stdClass Object
+(
+    [ID] => 296
+    [Title] => 
+    [GivenName] => test
+    [FamilyName] => test
+    [Email] => executive@gmail.com
+    [WorkPhone] => +1 62 8898789999
+    [Fax] => 
+    [CellPhone] => 
+    [AltPhone] => 
+    [Department] => 
+    [Position] => executive
+    [Notes] => hi test this is test notes.
+    [CustomFields] => Array
+        (
+        )
+
+    [DateModified] => 2021-02-19 01:17:39.469516+10
+    [Contact] => stdClass Object
+        (
+            [ID] => 296
+            [GivenName] => test
+            [FamilyName] => test
+            [Email] => executive@gmail.com
+        )
+
+    [PrimaryContact] => 
+)
+  
+[2021-02-18 16:13:46] local.DEBUG: contact zoho webhook received {"OrgID":"740974695","ID":"4795954000000455219"} 
+[2021-02-18 16:13:47] local.DEBUG: Contact data: 
+Array
+(
+    [Email] => test2321321@fdbc.com
+    [Visitor_Score] => 
+    [Mailing_State] => 
+    [Other_State] => New Delhi
+    [Other_Country] => India
+    [Unsubscribed_Mode] => 
+    [Work_Phone] => 
+    [Mailing_Country] => 
+    [First_Visited_URL] => 
+    [Days_Visited] => 
+    [Position] => 
+    [Other_City] => New Delhi
+    [Home_Phone] => 
+    [Customer_ID] => 4795954000000426034
+    [Last_Visited_Time] => 
+    [Mobile_Phone] => 
+    [Description] => 
+    [Mailing_Zip] => 
+    [Number_Of_Chats] => 
+    [Primary_Contact] => 1
+    [Other_Zip] => 110096
+    [Mailing_Street] => 
+    [Average_Time_Spent_Minutes] => 
+    [Salutation] => 
+    [Simpro_ID] => 
+    [First_Name] => test
+    [Full_Name] => test test123213
+    [Record_Image] => 
+    [Phone] => 
+    [Notes] => 
+    [Mailing_City] => 
+    [Home_Phone1] => 
+    [Unsubscribed_Time] => 
+    [Simpro_URL] => 
+    [Other_Street] => Gharauli gau
+    [First_Visited_Time] => 
+    [Last_Name] => test123213
+    [Referrer] => 
+    [Lead_Source] => 
+    [Fax] => 
+)
+  
+[2021-02-18 16:13:47] local.DEBUG: Contact id: 
+4795954000000455219  
+[2021-02-18 16:13:47] local.DEBUG: inserted Contact data: 
+App\Models\Contact Object
+(
+    [fillable:protected] => Array
+        (
+            [0] => zoho_reference_id
+            [1] => zoho_site_id
+            [2] => company_name
+            [3] => zoho_reference_id
+            [4] => title
+            [5] => given_name
+            [6] => family_name
+            [7] => email
+            [8] => workphone
+            [9] => fax
+            [10] => cellphone
+            [11] => altphone
+            [12] => department
+            [13] => position
+            [14] => altphone
+            [15] => notes
+        )
+
+    [guarded:protected] => Array
+        (
+            [0] => id
+        )
+
+    [casts:protected] => Array
+        (
+            [archived] => boolean
+        )
+
+    [connection:protected] => mysql
+    [table:protected] => contacts
+    [primaryKey:protected] => id
+    [keyType:protected] => int
+    [incrementing] => 1
+    [with:protected] => Array
+        (
+        )
+
+    [withCount:protected] => Array
+        (
+        )
+
+    [perPage:protected] => 15
+    [exists] => 1
+    [wasRecentlyCreated] => 
+    [attributes:protected] => Array
+        (
+            [id] => 115
+            [sim_id] => 295
+            [zoho_reference_id] => 4795954000000455219
+            [zoho_sub_id] => 
+            [zoho_site_id] => 4795954000000426034
+            [archived] => 0
+            [company_name] => 
+            [title] => 
+            [given_name] => test
+            [family_name] => test123213
+            [email] => test2321321@fdbc.com
+            [workphone] => 
+            [fax] => 
+            [cellphone] => 
+            [altphone] => 
+            [department] => 
+            [position] => 
+            [primary_contact] => 
+            [notes] => 
+            [company_number] => 
+            [deleted_at] => 
+            [created_at] => 2021-02-18 15:12:05
+            [updated_at] => 2021-02-18 15:12:06
+        )
+
+    [original:protected] => Array
+        (
+            [id] => 115
+            [sim_id] => 295
+            [zoho_reference_id] => 4795954000000455219
+            [zoho_sub_id] => 
+            [zoho_site_id] => 4795954000000426034
+            [archived] => 0
+            [company_name] => 
+            [title] => 
+            [given_name] => test
+            [family_name] => test123213
+            [email] => test2321321@fdbc.com
+            [workphone] => 
+            [fax] => 
+            [cellphone] => 
+            [altphone] => 
+            [department] => 
+            [position] => 
+            [primary_contact] => 
+            [notes] => 
+            [company_number] => 
+            [deleted_at] => 
+            [created_at] => 2021-02-18 15:12:05
+            [updated_at] => 2021-02-18 15:12:06
+        )
+
+    [changes:protected] => Array
+        (
+        )
+
+    [classCastCache:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+        )
+
+    [dateFormat:protected] => 
+    [appends:protected] => Array
+        (
+        )
+
+    [dispatchesEvents:protected] => Array
+        (
+        )
+
+    [observables:protected] => Array
+        (
+        )
+
+    [relations:protected] => Array
+        (
+        )
+
+    [touches:protected] => Array
+        (
+        )
+
+    [timestamps] => 1
+    [hidden:protected] => Array
+        (
+        )
+
+    [visible:protected] => Array
+        (
+        )
+
+)
+  
+[2021-02-18 16:13:47] local.DEBUG: App\Http\Controllers\ZohoWebhookController310: No change in the contact information: test2321321@fdbc.com  
+[2021-02-18 16:17:12] local.DEBUG: contact zoho webhook received {"OrgID":"740974695","ID":"4795954000000455245"} 
+[2021-02-18 16:17:13] local.DEBUG: Contact data: 
+Array
+(
+    [Email] => jeff@test123.com
+    [Visitor_Score] => 
+    [Mailing_State] => New Delhi2
+    [Other_State] => New Delhi
+    [Other_Country] => India
+    [Unsubscribed_Mode] => 
+    [Work_Phone] => 324234324
+    [Mailing_Country] => India2
+    [First_Visited_URL] => 
+    [Days_Visited] => 
+    [Position] => first
+    [Other_City] => New Delhi
+    [Home_Phone] => 324324
+    [Customer_ID] => 4795954000000426034
+    [Last_Visited_Time] => 
+    [Mobile_Phone] => 324324
+    [Description] => 
+    [Mailing_Zip] => 110096
+    [Number_Of_Chats] => 
+    [Primary_Contact] => 1
+    [Other_Zip] => 110096
+    [Mailing_Street] => Gharauli gau2
+    [Average_Time_Spent_Minutes] => 
+    [Salutation] => Mr.
+    [Simpro_ID] => 
+    [First_Name] => Jeff
+    [Full_Name] => Mr. Jeff behradein
+    [Record_Image] => 
+    [Phone] => 21432432
+    [Notes] => test
+    [Mailing_City] => New Delhi2
+    [Home_Phone1] => 32432432
+    [Unsubscribed_Time] => 
+    [Simpro_URL] => 
+    [Other_Street] => Gharauli gau
+    [First_Visited_Time] => 
+    [Last_Name] => behradein
+    [Referrer] => 
+    [Lead_Source] => 
+    [Fax] => 3432423
+)
+  
+[2021-02-18 16:17:13] local.DEBUG: Contact id: 
+4795954000000455245  
+[2021-02-18 16:17:13] local.DEBUG: inserted Contact data: 
+App\Models\Contact Object
+(
+    [fillable:protected] => Array
+        (
+            [0] => zoho_reference_id
+            [1] => zoho_site_id
+            [2] => company_name
+            [3] => zoho_reference_id
+            [4] => title
+            [5] => given_name
+            [6] => family_name
+            [7] => email
+            [8] => workphone
+            [9] => fax
+            [10] => cellphone
+            [11] => altphone
+            [12] => department
+            [13] => position
+            [14] => altphone
+            [15] => notes
+        )
+
+    [guarded:protected] => Array
+        (
+            [0] => id
+        )
+
+    [casts:protected] => Array
+        (
+            [archived] => boolean
+        )
+
+    [connection:protected] => mysql
+    [table:protected] => contacts
+    [primaryKey:protected] => id
+    [keyType:protected] => int
+    [incrementing] => 1
+    [with:protected] => Array
+        (
+        )
+
+    [withCount:protected] => Array
+        (
+        )
+
+    [perPage:protected] => 15
+    [exists] => 1
+    [wasRecentlyCreated] => 1
+    [attributes:protected] => Array
+        (
+            [zoho_reference_id] => 4795954000000455245
+            [zoho_site_id] => 4795954000000426034
+            [company_name] => 
+            [title] => Mr
+            [given_name] => Jeff
+            [family_name] => behradein
+            [email] => jeff@test123.com
+            [workphone] => 324234324
+            [fax] => 3432423
+            [cellphone] => 324324
+            [altphone] => 
+            [department] => 
+            [position] => first
+            [notes] => test
+            [updated_at] => 2021-02-18 16:17:13
+            [created_at] => 2021-02-18 16:17:13
+            [id] => 117
+        )
+
+    [original:protected] => Array
+        (
+            [zoho_reference_id] => 4795954000000455245
+            [zoho_site_id] => 4795954000000426034
+            [company_name] => 
+            [title] => Mr
+            [given_name] => Jeff
+            [family_name] => behradein
+            [email] => jeff@test123.com
+            [workphone] => 324234324
+            [fax] => 3432423
+            [cellphone] => 324324
+            [altphone] => 
+            [department] => 
+            [position] => first
+            [notes] => test
+            [updated_at] => 2021-02-18 16:17:13
+            [created_at] => 2021-02-18 16:17:13
+            [id] => 117
+        )
+
+    [changes:protected] => Array
+        (
+        )
+
+    [classCastCache:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+        )
+
+    [dateFormat:protected] => 
+    [appends:protected] => Array
+        (
+        )
+
+    [dispatchesEvents:protected] => Array
+        (
+        )
+
+    [observables:protected] => Array
+        (
+        )
+
+    [relations:protected] => Array
+        (
+        )
+
+    [touches:protected] => Array
+        (
+        )
+
+    [timestamps] => 1
+    [hidden:protected] => Array
+        (
+        )
+
+    [visible:protected] => Array
+        (
+        )
+
+)
+  
+[2021-02-18 16:17:14] local.DEBUG: stdClass Object
+(
+    [ID] => 297
+    [Title] => Mr
+    [GivenName] => Jeff
+    [FamilyName] => behradein
+    [Email] => jeff@test123.com
+    [WorkPhone] => 324234324
+    [Fax] => 3432423
+    [CellPhone] => 324324
+    [AltPhone] => 
+    [Department] => 
+    [Position] => first
+    [Notes] => test
+    [CustomFields] => Array
+        (
+        )
+
+    [DateModified] => 2021-02-19 02:17:14.226815+10
+    [Contact] => stdClass Object
+        (
+            [ID] => 297
+            [GivenName] => Jeff
+            [FamilyName] => behradein
+            [Email] => jeff@test123.com
+        )
+
+    [PrimaryContact] => 
+)
+  
+[2021-02-18 16:22:21] local.DEBUG: contact zoho webhook received {"OrgID":"740974695","ID":"4795954000000455261"} 
+[2021-02-18 16:22:21] local.DEBUG: Contact data: 
+Array
+(
+    [Email] => emailtest123@test.com
+    [Visitor_Score] => 
+    [Mailing_State] => New Delhi2
+    [Other_State] => New Delhi
+    [Other_Country] => India
+    [Unsubscribed_Mode] => 
+    [Work_Phone] => 32431432134
+    [Mailing_Country] => India2
+    [First_Visited_URL] => 
+    [Days_Visited] => 
+    [Position] => first
+    [Other_City] => New Delhi
+    [Home_Phone] => 234324
+    [Customer_ID] => 
+    [Last_Visited_Time] => 
+    [Mobile_Phone] => 234324321432
+    [Description] => 
+    [Mailing_Zip] => 1100962
+    [Number_Of_Chats] => 
+    [Primary_Contact] => 
+    [Other_Zip] => 110096
+    [Mailing_Street] => Gharauli gau2
+    [Average_Time_Spent_Minutes] => 
+    [Salutation] => 
+    [Simpro_ID] => 
+    [First_Name] => testjeff
+    [Full_Name] => testjeff lastname
+    [Record_Image] => 
+    [Phone] => 21432432
+    [Notes] => note
+    [Mailing_City] => New Delhi2
+    [Home_Phone1] => 324231
+    [Unsubscribed_Time] => 
+    [Simpro_URL] => 
+    [Other_Street] => Gharauli gau
+    [First_Visited_Time] => 
+    [Last_Name] => lastname
+    [Referrer] => 
+    [Lead_Source] => 
+    [Fax] => 
+)
+  
+[2021-02-18 16:22:21] local.DEBUG: Contact id: 
+4795954000000455261  
+[2021-02-18 16:24:46] local.DEBUG: contact zoho webhook received {"OrgID":"740974695","ID":"4795954000000455279"} 
+[2021-02-18 16:24:47] local.DEBUG: Contact data: 
+Array
+(
+    [Email] => test21@test.com
+    [Visitor_Score] => 
+    [Mailing_State] => New Delhi4
+    [Other_State] => New Delhi
+    [Other_Country] => India
+    [Unsubscribed_Mode] => 
+    [Work_Phone] => 3425246546543
+    [Mailing_Country] => India
+    [First_Visited_URL] => 
+    [Days_Visited] => 
+    [Position] => test21
+    [Other_City] => New Delhi
+    [Home_Phone] => 342524654654
+    [Customer_ID] => 4795954000000426034
+    [Last_Visited_Time] => 
+    [Mobile_Phone] => 3425246546543
+    [Description] => 
+    [Mailing_Zip] => 110096
+    [Number_Of_Chats] => 
+    [Primary_Contact] => 1
+    [Other_Zip] => 110096
+    [Mailing_Street] => Gharauli gau44
+    [Average_Time_Spent_Minutes] => 
+    [Salutation] => 
+    [Simpro_ID] => 
+    [First_Name] => test
+    [Full_Name] => test jeff
+    [Record_Image] => 
+    [Phone] => 342524654654
+    [Notes] => test21
+    [Mailing_City] => New Delhi4
+    [Home_Phone1] => 3425246546543
+    [Unsubscribed_Time] => 
+    [Simpro_URL] => 
+    [Other_Street] => Gharauli gau
+    [First_Visited_Time] => 
+    [Last_Name] => jeff
+    [Referrer] => 
+    [Lead_Source] => 
+    [Fax] => 
+)
+  
+[2021-02-18 16:24:47] local.DEBUG: Contact id: 
+4795954000000455279  
+[2021-02-18 16:24:47] local.DEBUG: inserted Contact data: 
+App\Models\Contact Object
+(
+    [fillable:protected] => Array
+        (
+            [0] => zoho_reference_id
+            [1] => zoho_site_id
+            [2] => company_name
+            [3] => zoho_reference_id
+            [4] => title
+            [5] => given_name
+            [6] => family_name
+            [7] => email
+            [8] => workphone
+            [9] => fax
+            [10] => cellphone
+            [11] => altphone
+            [12] => department
+            [13] => position
+            [14] => altphone
+            [15] => notes
+        )
+
+    [guarded:protected] => Array
+        (
+            [0] => id
+        )
+
+    [casts:protected] => Array
+        (
+            [archived] => boolean
+        )
+
+    [connection:protected] => mysql
+    [table:protected] => contacts
+    [primaryKey:protected] => id
+    [keyType:protected] => int
+    [incrementing] => 1
+    [with:protected] => Array
+        (
+        )
+
+    [withCount:protected] => Array
+        (
+        )
+
+    [perPage:protected] => 15
+    [exists] => 1
+    [wasRecentlyCreated] => 1
+    [attributes:protected] => Array
+        (
+            [zoho_reference_id] => 4795954000000455279
+            [zoho_site_id] => 4795954000000426034
+            [company_name] => 
+            [title] => 
+            [given_name] => test
+            [family_name] => jeff
+            [email] => test21@test.com
+            [workphone] => 3425246546543
+            [fax] => 
+            [cellphone] => 3425246546543
+            [altphone] => 
+            [department] => 
+            [position] => test21
+            [notes] => test21
+            [updated_at] => 2021-02-18 16:24:47
+            [created_at] => 2021-02-18 16:24:47
+            [id] => 118
+        )
+
+    [original:protected] => Array
+        (
+            [zoho_reference_id] => 4795954000000455279
+            [zoho_site_id] => 4795954000000426034
+            [company_name] => 
+            [title] => 
+            [given_name] => test
+            [family_name] => jeff
+            [email] => test21@test.com
+            [workphone] => 3425246546543
+            [fax] => 
+            [cellphone] => 3425246546543
+            [altphone] => 
+            [department] => 
+            [position] => test21
+            [notes] => test21
+            [updated_at] => 2021-02-18 16:24:47
+            [created_at] => 2021-02-18 16:24:47
+            [id] => 118
+        )
+
+    [changes:protected] => Array
+        (
+        )
+
+    [classCastCache:protected] => Array
+        (
+        )
+
+    [dates:protected] => Array
+        (
+        )
+
+    [dateFormat:protected] => 
+    [appends:protected] => Array
+        (
+        )
+
+    [dispatchesEvents:protected] => Array
+        (
+        )
+
+    [observables:protected] => Array
+        (
+        )
+
+    [relations:protected] => Array
+        (
+        )
+
+    [touches:protected] => Array
+        (
+        )
+
+    [timestamps] => 1
+    [hidden:protected] => Array
+        (
+        )
+
+    [visible:protected] => Array
+        (
+        )
+
+)
+  
+[2021-02-18 16:24:48] local.DEBUG: stdClass Object
+(
+    [ID] => 298
+    [Title] => 
+    [GivenName] => test
+    [FamilyName] => jeff
+    [Email] => test21@test.com
+    [WorkPhone] => 3425246546543
+    [Fax] => 
+    [CellPhone] => 3425246546543
+    [AltPhone] => 
+    [Department] => 
+    [Position] => test21
+    [Notes] => test21
+    [CustomFields] => Array
+        (
+        )
+
+    [DateModified] => 2021-02-19 02:24:48.0802+10
+    [Contact] => stdClass Object
+        (
+            [ID] => 298
+            [GivenName] => test
+            [FamilyName] => jeff
+            [Email] => test21@test.com
+        )
+
+    [PrimaryContact] => 
+)
+  
+[2021-02-18 20:49:03] local.DEBUG: simpro webhooks data {"ID":"individual.customer.created","build":"elementtest.simprosuite.com","description":"Individual customer #380 has been created.","name":"Individual customer","action":"created","reference":{"companyID":0,"customerID":380,"individualCustomerID":380},"date_triggered":"2021-02-19T06:48:10+10:00"} 
+[2021-02-18 20:49:04] local.DEBUG: Customer created in database: simpro ID. 380  
+[2021-02-18 20:49:04] local.DEBUG: App\Jobs\ExportCustomersToZoho:145: Customer:Individual@customer.com type: customer  
+[2021-02-18 20:49:05] local.DEBUG:  code: 201, status: success  
+[2021-02-18 20:49:05] local.DEBUG: Record with email: Individual@customer.com saved as customer  
+[2021-02-18 20:49:05] local.DEBUG:  code: 201, status: success  
+[2021-02-18 20:49:05] local.DEBUG: Record with email: Individual@customer.com saved as customer  
+[2021-02-18 20:49:06] local.DEBUG:  Individual@customer.com custom field id 5=> 4795954000000432013 updated. Status: 204   
+[2021-02-18 20:49:07] local.DEBUG: Site saved in database. SimPro ID: 530  
+[2021-02-18 20:49:08] local.DEBUG:  code: 201, status: success  
+[2021-02-18 20:49:08] local.DEBUG: Site created/updated in zoho. SimPro ID: 530, Zoho ID: 4795954000000422013  
+[2021-02-18 21:08:03] local.DEBUG: simpro webhooks data {"ID":"company.customer.created","build":"elementtest.simprosuite.com","description":"Company customer #381 has been created.","name":"Company customer","action":"created","reference":{"companyID":0,"customerID":381,"companyCustomerID":381},"date_triggered":"2021-02-19T07:07:57+10:00"} 
+[2021-02-18 21:08:04] local.DEBUG: Customer created in database: simpro ID. 381  
+[2021-02-18 21:08:04] local.DEBUG: App\Jobs\ExportCustomersToZoho:145: Customer: type: customer  
+[2021-02-18 21:08:04] local.DEBUG:  code: 201, status: success  
+[2021-02-18 21:08:04] local.DEBUG: Record with email:  saved as customer  
+[2021-02-18 21:08:05] local.DEBUG:   custom field id 5=> 4795954000000434015 updated. Status: 204   
+[2021-02-18 21:08:06] local.DEBUG: Site saved in database. SimPro ID: 531  
+[2021-02-18 21:08:07] local.DEBUG:  code: 201, status: success  
+[2021-02-18 21:08:07] local.DEBUG: Site created/updated in zoho. SimPro ID: 531, Zoho ID: 4795954000000449017  
+[2021-02-18 21:10:02] local.DEBUG: simpro webhooks data {"ID":"company.customer.updated","build":"elementtest.simprosuite.com","description":"Company customer #381 has been updated.","name":"Company customer","action":"updated","reference":{"companyID":0,"customerID":381,"companyCustomerID":381},"date_triggered":"2021-02-19T07:09:33+10:00"} 
+[2021-02-18 21:10:04] local.DEBUG: No change in the customer information:   
+[2021-02-18 21:10:04] local.DEBUG: Site saved in database. SimPro ID: 531  
+[2021-02-18 21:10:06] local.DEBUG:  code: 200, status: success  
+[2021-02-18 21:10:06] local.DEBUG: Site created/updated in zoho. SimPro ID: 531, Zoho ID: 4795954000000449017  
+[2021-02-18 21:11:02] local.DEBUG: simpro webhooks data {"ID":"company.customer.updated","build":"elementtest.simprosuite.com","description":"Company customer #381 has been updated.","name":"Company customer","action":"updated","reference":{"companyID":0,"customerID":381,"companyCustomerID":381},"date_triggered":"2021-02-19T07:10:48+10:00"} 
+[2021-02-18 21:11:03] local.DEBUG: No change in the customer information:   
+[2021-02-18 21:11:04] local.DEBUG: Site saved in database. SimPro ID: 531  
+[2021-02-18 21:11:04] local.DEBUG:  code: 200, status: success  
+[2021-02-18 21:11:04] local.DEBUG: Site created/updated in zoho. SimPro ID: 531, Zoho ID: 4795954000000449017  
+[2021-02-18 21:11:05] local.DEBUG: Site saved in database. SimPro ID: 532  
+[2021-02-18 21:11:05] local.DEBUG:  code: 201, status: success  
+[2021-02-18 21:11:05] local.DEBUG: Site created/updated in zoho. SimPro ID: 532, Zoho ID: 4795954000000429035  
+[2021-02-18 21:15:02] local.DEBUG: simpro webhooks data {"ID":"company.customer.updated","build":"elementtest.simprosuite.com","description":"Company customer #381 has been updated.","name":"Company customer","action":"updated","reference":{"companyID":0,"customerID":381,"companyCustomerID":381},"date_triggered":"2021-02-19T07:14:01+10:00"} 
+[2021-02-18 21:15:03] local.DEBUG: simpro webhooks data {"ID":"company.customer.updated","build":"elementtest.simprosuite.com","description":"Company customer #381 has been updated.","name":"Company customer","action":"updated","reference":{"companyID":0,"customerID":381,"companyCustomerID":381},"date_triggered":"2021-02-19T07:14:09+10:00"} 
+[2021-02-18 21:15:04] local.DEBUG: customer changes {"email":"admin@elementsecurity.com.au","phone":"1300325276","altphone":"NA Alt Phone","ein":"ABN12345678","website":"www.elementsecurity.com.au","fax":"NA FAX","updated_at":"2021-02-18 21:15:04"} 
+[2021-02-18 21:15:04] local.DEBUG: App\Jobs\ExportCustomersToZoho:145: Customer:admin@elementsecurity.com.au type: customer  
+[2021-02-18 21:15:04] local.ERROR: App\Jobs\ExportCustomersToZoho:92 Error Code INVALID_DATA  
+[2021-02-18 21:15:04] local.ERROR: App\Jobs\ExportCustomersToZoho:93 Error Details: {"expected_data_type":"bigint","api_name":"Company_Fax","json_path":"$.data[0].Company_Fax"} 
+[2021-02-18 21:15:05] local.DEBUG: Site saved in database. SimPro ID: 531  
+[2021-02-18 21:15:05] local.DEBUG:  code: 200, status: success  
+[2021-02-18 21:15:05] local.DEBUG: Site created/updated in zoho. SimPro ID: 531, Zoho ID: 4795954000000449017  
+[2021-02-18 21:15:06] local.DEBUG: Site saved in database. SimPro ID: 532  
+[2021-02-18 21:15:07] local.DEBUG:  code: 200, status: success  
+[2021-02-18 21:15:07] local.DEBUG: Site created/updated in zoho. SimPro ID: 532, Zoho ID: 4795954000000429035  

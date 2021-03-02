@@ -1,0 +1,3669 @@
+[2021-02-19 15:50:02] local.DEBUG: simpro webhooks data {"ID":"company.customer.updated","build":"elementtest.simprosuite.com","description":"Company customer #379 has been updated.","name":"Company customer","action":"updated","reference":{"companyID":0,"customerID":379,"companyCustomerID":379},"date_triggered":"2021-02-20T01:49:08+10:00"} 
+[2021-02-19 15:50:03] local.DEBUG: No change in the customer information:   
+[2021-02-19 15:50:04] local.DEBUG: simSite data: 
+stdClass Object
+(
+    [ID] => 540
+    [Name] => test123
+    [Address] => stdClass Object
+        (
+            [Address] => Gharauli gau333
+Mayur Bihar Phase -3
+            [City] => New Delhi
+            [State] => NT
+            [PostalCode] => 110096
+            [Country] => Australia
+        )
+
+    [BillingAddress] => stdClass Object
+        (
+            [Address] => Gharauli gau33333333
+Mayur Bihar Phase -333333
+            [City] => New Delhi
+            [State] => TAS
+            [PostalCode] => 110096
+        )
+
+    [BillingContact] => 110096
+    [PrimaryContact] => stdClass Object
+        (
+            [Contact] => stdClass Object
+                (
+                )
+
+            [Title] => 
+            [GivenName] => 
+            [FamilyName] => 
+            [Email] => 
+            [WorkPhone] => 
+            [CellPhone] => 
+            [Fax] => 
+            [Position] => 
+            [PreferredNotificationMethod] => 
+        )
+
+    [PublicNotes] => 
+    [PrivateNotes] => 
+    [Zone] => stdClass Object
+        (
+        )
+
+    [PreferredTechs] => Array
+        (
+        )
+
+    [PreferredTechnicians] => Array
+        (
+        )
+
+    [DateModified] => 2021-02-20T01:05:20+10:00
+    [Customers] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [ID] => 379
+                    [CompanyName] => account 6:36 test
+                    [GivenName] => 
+                    [FamilyName] => 
+                )
+
+        )
+
+    [Archived] => 
+    [STCZone] => 
+    [VEECZone] => 
+    [CustomFields] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [CustomField] => stdClass Object
+                        (
+                            [ID] => 3
+                            [Name] => Monitoring
+                            [Type] => List
+                            [IsMandatory] => 1
+                            [ListItems] => Array
+                                (
+                                    [0] => Monitoring Active
+                                    [1] => Monitoring Cancelled
+                                )
+
+                        )
+
+                    [Value] => Monitoring Active
+                )
+
+            [1] => stdClass Object
+                (
+                    [CustomField] => stdClass Object
+                        (
+                            [ID] => 39
+                            [Name] => Subscription Service Available?
+                            [Type] => List
+                            [IsMandatory] => 1
+                            [ListItems] => Array
+                                (
+                                    [0] => Yes
+                                    [1] => No
+                                )
+
+                        )
+
+                    [Value] => Yes
+                )
+
+        )
+
+)
+  
+[2021-02-19 15:50:04] local.DEBUG: Site saved in database. SimPro ID: 540  
+[2021-02-19 15:50:04] local.DEBUG: Array
+(
+    [id] => 288
+    [sim_id] => 540
+    [zoho_id] => 4795954000000485002
+    [name] => test123
+    [subscription_service_available] => 1
+    [billing_contact] => 110096
+    [address_id] => 482
+    [billingAddress_id] => 481
+    [public_notes] => 
+    [private_notes] => 
+    [archived] => 
+    [customer_id] => 229
+    [created_at] => 2021-02-19T15:06:09.000000Z
+    [updated_at] => 2021-02-19T15:50:04.000000Z
+    [address] => Array
+        (
+            [id] => 482
+            [customer] => 229
+            [address] => 
+            [city] => 
+            [state] => 
+            [postalCode] => 
+            [country] => 
+            [type] => billing
+            [created_at] => 2021-02-18T13:06:50.000000Z
+            [updated_at] => 2021-02-19T13:57:04.000000Z
+        )
+
+    [billing_address] => Array
+        (
+            [id] => 481
+            [customer] => 229
+            [address] => 
+            [city] => 
+            [state] => 
+            [postalCode] => 
+            [country] => 
+            [type] => address
+            [created_at] => 2021-02-18T13:06:50.000000Z
+            [updated_at] => 2021-02-19T13:57:04.000000Z
+        )
+
+)
+  
+[2021-02-19 15:50:04] local.DEBUG: ugfefreigfiuregfiure  
+[2021-02-19 15:50:04] local.DEBUG: zcrmsdk\crm\crud\ZCRMRecord Object
+(
+    [entityId:zcrmsdk\crm\crud\ZCRMRecord:private] => 4795954000000485002
+    [moduleApiName:zcrmsdk\crm\crud\ZCRMRecord:private] => Sites
+    [lineItems:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [lookupLabel:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [owner:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [createdBy:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [modifiedBy:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [createdTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [modifiedTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [fieldNameVsValue:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [properties:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [participants:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [priceDetails:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [layout:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [taxList:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [lastActivityTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [tags:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [tagnames:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [status:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [error:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [rowNumber:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+)
+  
+[2021-02-19 15:50:05] local.ERROR: App\Jobs\SyncSimProSites:203 Error Code INVALID_DATA  
+[2021-02-19 15:50:05] local.ERROR: App\Jobs\SyncSimProSites:204 Error message:  
+[2021-02-19 15:50:05] local.ERROR: App\Jobs\SyncSimProSites:205 Error Details:  
+[2021-02-19 15:50:05] local.DEBUG: simSite data: 
+stdClass Object
+(
+    [ID] => 543
+    [Name] => test334
+    [Address] => stdClass Object
+        (
+            [Address] => Gharauli gau
+Mayur Bihar Phase -3
+            [City] => New Delhi
+            [State] => 
+            [PostalCode] => 110096
+            [Country] => India
+        )
+
+    [BillingAddress] => stdClass Object
+        (
+            [Address] => Gharauli gau
+Mayur Bihar Phase -3
+            [City] => New Delhi
+            [State] => 
+            [PostalCode] => 110096
+        )
+
+    [BillingContact] => 110096
+    [PrimaryContact] => stdClass Object
+        (
+            [Contact] => stdClass Object
+                (
+                )
+
+            [Title] => 
+            [GivenName] => 
+            [FamilyName] => 
+            [Email] => 
+            [WorkPhone] => 
+            [CellPhone] => 
+            [Fax] => 
+            [Position] => 
+            [PreferredNotificationMethod] => 
+        )
+
+    [PublicNotes] => 
+    [PrivateNotes] => 
+    [Zone] => stdClass Object
+        (
+        )
+
+    [PreferredTechs] => Array
+        (
+        )
+
+    [PreferredTechnicians] => Array
+        (
+        )
+
+    [DateModified] => 2021-02-20T01:42:54+10:00
+    [Customers] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [ID] => 379
+                    [CompanyName] => account 6:36 test
+                    [GivenName] => 
+                    [FamilyName] => 
+                )
+
+        )
+
+    [Archived] => 
+    [STCZone] => 
+    [VEECZone] => 
+    [CustomFields] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [CustomField] => stdClass Object
+                        (
+                            [ID] => 3
+                            [Name] => Monitoring
+                            [Type] => List
+                            [IsMandatory] => 1
+                            [ListItems] => Array
+                                (
+                                    [0] => Monitoring Active
+                                    [1] => Monitoring Cancelled
+                                )
+
+                        )
+
+                    [Value] => Monitoring Active
+                )
+
+            [1] => stdClass Object
+                (
+                    [CustomField] => stdClass Object
+                        (
+                            [ID] => 39
+                            [Name] => Subscription Service Available?
+                            [Type] => List
+                            [IsMandatory] => 1
+                            [ListItems] => Array
+                                (
+                                    [0] => Yes
+                                    [1] => No
+                                )
+
+                        )
+
+                    [Value] => Yes
+                )
+
+        )
+
+)
+  
+[2021-02-19 15:50:05] local.DEBUG: Site saved in database. SimPro ID: 543  
+[2021-02-19 15:50:05] local.DEBUG: Array
+(
+    [id] => 290
+    [sim_id] => 543
+    [zoho_id] => 4795954000000482003
+    [name] => test334
+    [subscription_service_available] => 1
+    [billing_contact] => 110096
+    [address_id] => 482
+    [billingAddress_id] => 481
+    [public_notes] => 
+    [private_notes] => 
+    [archived] => 
+    [customer_id] => 229
+    [created_at] => 2021-02-19T15:44:06.000000Z
+    [updated_at] => 2021-02-19T15:50:05.000000Z
+    [address] => Array
+        (
+            [id] => 482
+            [customer] => 229
+            [address] => 
+            [city] => 
+            [state] => 
+            [postalCode] => 
+            [country] => 
+            [type] => billing
+            [created_at] => 2021-02-18T13:06:50.000000Z
+            [updated_at] => 2021-02-19T13:57:04.000000Z
+        )
+
+    [billing_address] => Array
+        (
+            [id] => 481
+            [customer] => 229
+            [address] => 
+            [city] => 
+            [state] => 
+            [postalCode] => 
+            [country] => 
+            [type] => address
+            [created_at] => 2021-02-18T13:06:50.000000Z
+            [updated_at] => 2021-02-19T13:57:04.000000Z
+        )
+
+)
+  
+[2021-02-19 15:50:05] local.DEBUG: ugfefreigfiuregfiure  
+[2021-02-19 15:50:05] local.DEBUG: zcrmsdk\crm\crud\ZCRMRecord Object
+(
+    [entityId:zcrmsdk\crm\crud\ZCRMRecord:private] => 4795954000000482003
+    [moduleApiName:zcrmsdk\crm\crud\ZCRMRecord:private] => Sites
+    [lineItems:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [lookupLabel:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [owner:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [createdBy:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [modifiedBy:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [createdTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [modifiedTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [fieldNameVsValue:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [properties:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [participants:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [priceDetails:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [layout:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [taxList:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [lastActivityTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [tags:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [tagnames:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [status:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [error:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [rowNumber:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+)
+  
+[2021-02-19 15:50:06] local.DEBUG:  code: 200, status: success  
+[2021-02-19 15:50:06] local.DEBUG: Site created/updated in zoho. SimPro ID: 543, Zoho ID: 4795954000000482003  
+[2021-02-19 15:50:07] local.DEBUG: simSite data: 
+stdClass Object
+(
+    [ID] => 542
+    [Name] => test5656
+    [Address] => stdClass Object
+        (
+            [Address] => Gharauli gau
+Mayur Bihar Phase -3
+            [City] => New Delhi
+            [State] => QLD
+            [PostalCode] => 110096
+            [Country] => India
+        )
+
+    [BillingAddress] => stdClass Object
+        (
+            [Address] => Gharauli gau
+Mayur Bihar Phase -3
+            [City] => New Delhi
+            [State] => TAS
+            [PostalCode] => 110096
+        )
+
+    [BillingContact] => 110096
+    [PrimaryContact] => stdClass Object
+        (
+            [Contact] => stdClass Object
+                (
+                )
+
+            [Title] => 
+            [GivenName] => 
+            [FamilyName] => 
+            [Email] => 
+            [WorkPhone] => 
+            [CellPhone] => 
+            [Fax] => 
+            [Position] => 
+            [PreferredNotificationMethod] => 
+        )
+
+    [PublicNotes] => 
+    [PrivateNotes] => 
+    [Zone] => stdClass Object
+        (
+        )
+
+    [PreferredTechs] => Array
+        (
+        )
+
+    [PreferredTechnicians] => Array
+        (
+        )
+
+    [DateModified] => 2021-02-20T01:47:28+10:00
+    [Customers] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [ID] => 379
+                    [CompanyName] => account 6:36 test
+                    [GivenName] => 
+                    [FamilyName] => 
+                )
+
+        )
+
+    [Archived] => 
+    [STCZone] => 
+    [VEECZone] => 
+    [CustomFields] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [CustomField] => stdClass Object
+                        (
+                            [ID] => 3
+                            [Name] => Monitoring
+                            [Type] => List
+                            [IsMandatory] => 1
+                            [ListItems] => Array
+                                (
+                                    [0] => Monitoring Active
+                                    [1] => Monitoring Cancelled
+                                )
+
+                        )
+
+                    [Value] => Monitoring Active
+                )
+
+            [1] => stdClass Object
+                (
+                    [CustomField] => stdClass Object
+                        (
+                            [ID] => 39
+                            [Name] => Subscription Service Available?
+                            [Type] => List
+                            [IsMandatory] => 1
+                            [ListItems] => Array
+                                (
+                                    [0] => Yes
+                                    [1] => No
+                                )
+
+                        )
+
+                    [Value] => Yes
+                )
+
+        )
+
+)
+  
+[2021-02-19 15:50:07] local.DEBUG: Site saved in database. SimPro ID: 542  
+[2021-02-19 15:50:07] local.DEBUG: Array
+(
+    [id] => 289
+    [sim_id] => 542
+    [zoho_id] => 4795954000000483008
+    [name] => test5656
+    [subscription_service_available] => 1
+    [billing_contact] => 110096
+    [address_id] => 482
+    [billingAddress_id] => 481
+    [public_notes] => 
+    [private_notes] => 
+    [archived] => 
+    [customer_id] => 229
+    [created_at] => 2021-02-19T15:40:05.000000Z
+    [updated_at] => 2021-02-19T15:50:07.000000Z
+    [address] => Array
+        (
+            [id] => 482
+            [customer] => 229
+            [address] => 
+            [city] => 
+            [state] => 
+            [postalCode] => 
+            [country] => 
+            [type] => billing
+            [created_at] => 2021-02-18T13:06:50.000000Z
+            [updated_at] => 2021-02-19T13:57:04.000000Z
+        )
+
+    [billing_address] => Array
+        (
+            [id] => 481
+            [customer] => 229
+            [address] => 
+            [city] => 
+            [state] => 
+            [postalCode] => 
+            [country] => 
+            [type] => address
+            [created_at] => 2021-02-18T13:06:50.000000Z
+            [updated_at] => 2021-02-19T13:57:04.000000Z
+        )
+
+)
+  
+[2021-02-19 15:50:07] local.DEBUG: ugfefreigfiuregfiure  
+[2021-02-19 15:50:07] local.DEBUG: zcrmsdk\crm\crud\ZCRMRecord Object
+(
+    [entityId:zcrmsdk\crm\crud\ZCRMRecord:private] => 4795954000000483008
+    [moduleApiName:zcrmsdk\crm\crud\ZCRMRecord:private] => Sites
+    [lineItems:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [lookupLabel:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [owner:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [createdBy:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [modifiedBy:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [createdTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [modifiedTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [fieldNameVsValue:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [properties:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [participants:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [priceDetails:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [layout:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [taxList:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [lastActivityTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [tags:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [tagnames:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [status:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [error:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [rowNumber:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+)
+  
+[2021-02-19 15:50:07] local.DEBUG:  code: 200, status: success  
+[2021-02-19 15:50:07] local.DEBUG: Site created/updated in zoho. SimPro ID: 542, Zoho ID: 4795954000000483008  
+[2021-02-19 15:50:08] local.DEBUG: simSite data: 
+stdClass Object
+(
+    [ID] => 541
+    [Name] => test8:58
+    [Address] => stdClass Object
+        (
+            [Address] => Gharauli gau33
+Mayur Bihar Phase -3
+            [City] => New Delhi
+            [State] => QLD
+            [PostalCode] => 110096
+            [Country] => Australia
+        )
+
+    [BillingAddress] => stdClass Object
+        (
+            [Address] => Gharauli gau33333
+Mayur Bihar Phase -333
+            [City] => New Delhi3
+            [State] => TAS
+            [PostalCode] => 110096333
+        )
+
+    [BillingContact] => 110096333
+    [PrimaryContact] => stdClass Object
+        (
+            [Contact] => stdClass Object
+                (
+                )
+
+            [Title] => 
+            [GivenName] => 
+            [FamilyName] => 
+            [Email] => 
+            [WorkPhone] => 
+            [CellPhone] => 
+            [Fax] => 
+            [Position] => 
+            [PreferredNotificationMethod] => 
+        )
+
+    [PublicNotes] => 
+    [PrivateNotes] => 
+    [Zone] => stdClass Object
+        (
+        )
+
+    [PreferredTechs] => Array
+        (
+        )
+
+    [PreferredTechnicians] => Array
+        (
+        )
+
+    [DateModified] => 2021-02-20T01:29:09+10:00
+    [Customers] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [ID] => 379
+                    [CompanyName] => account 6:36 test
+                    [GivenName] => 
+                    [FamilyName] => 
+                )
+
+        )
+
+    [Archived] => 
+    [STCZone] => 
+    [VEECZone] => 
+    [CustomFields] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [CustomField] => stdClass Object
+                        (
+                            [ID] => 3
+                            [Name] => Monitoring
+                            [Type] => List
+                            [IsMandatory] => 1
+                            [ListItems] => Array
+                                (
+                                    [0] => Monitoring Active
+                                    [1] => Monitoring Cancelled
+                                )
+
+                        )
+
+                    [Value] => Monitoring Active
+                )
+
+            [1] => stdClass Object
+                (
+                    [CustomField] => stdClass Object
+                        (
+                            [ID] => 39
+                            [Name] => Subscription Service Available?
+                            [Type] => List
+                            [IsMandatory] => 1
+                            [ListItems] => Array
+                                (
+                                    [0] => Yes
+                                    [1] => No
+                                )
+
+                        )
+
+                    [Value] => Yes
+                )
+
+        )
+
+)
+  
+[2021-02-19 15:50:08] local.DEBUG: Site saved in database. SimPro ID: 541  
+[2021-02-19 15:50:08] local.DEBUG: Array
+(
+    [id] => 291
+    [sim_id] => 541
+    [zoho_id] => 4795954000000475002
+    [name] => test8:58
+    [subscription_service_available] => 1
+    [billing_contact] => 110096333
+    [address_id] => 482
+    [billingAddress_id] => 481
+    [public_notes] => 
+    [private_notes] => 
+    [archived] => 
+    [customer_id] => 229
+    [created_at] => 2021-02-19T15:44:07.000000Z
+    [updated_at] => 2021-02-19T15:50:08.000000Z
+    [address] => Array
+        (
+            [id] => 482
+            [customer] => 229
+            [address] => 
+            [city] => 
+            [state] => 
+            [postalCode] => 
+            [country] => 
+            [type] => billing
+            [created_at] => 2021-02-18T13:06:50.000000Z
+            [updated_at] => 2021-02-19T13:57:04.000000Z
+        )
+
+    [billing_address] => Array
+        (
+            [id] => 481
+            [customer] => 229
+            [address] => 
+            [city] => 
+            [state] => 
+            [postalCode] => 
+            [country] => 
+            [type] => address
+            [created_at] => 2021-02-18T13:06:50.000000Z
+            [updated_at] => 2021-02-19T13:57:04.000000Z
+        )
+
+)
+  
+[2021-02-19 15:50:08] local.DEBUG: ugfefreigfiuregfiure  
+[2021-02-19 15:50:08] local.DEBUG: zcrmsdk\crm\crud\ZCRMRecord Object
+(
+    [entityId:zcrmsdk\crm\crud\ZCRMRecord:private] => 4795954000000475002
+    [moduleApiName:zcrmsdk\crm\crud\ZCRMRecord:private] => Sites
+    [lineItems:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [lookupLabel:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [owner:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [createdBy:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [modifiedBy:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [createdTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [modifiedTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [fieldNameVsValue:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [properties:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [participants:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [priceDetails:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [layout:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [taxList:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [lastActivityTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [tags:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [tagnames:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [status:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [error:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [rowNumber:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+)
+  
+[2021-02-19 15:50:08] local.DEBUG:  code: 200, status: success  
+[2021-02-19 15:50:08] local.DEBUG: Site created/updated in zoho. SimPro ID: 541, Zoho ID: 4795954000000475002  
+[2021-02-19 15:53:02] local.DEBUG: simpro webhooks data {"ID":"company.customer.updated","build":"elementtest.simprosuite.com","description":"Company customer #379 has been updated.","name":"Company customer","action":"updated","reference":{"companyID":0,"customerID":379,"companyCustomerID":379},"date_triggered":"2021-02-20T01:52:05+10:00"} 
+[2021-02-19 15:53:03] local.DEBUG: No change in the customer information:   
+[2021-02-19 15:53:04] local.DEBUG: simSite data: 
+stdClass Object
+(
+    [ID] => 540
+    [Name] => test123
+    [Address] => stdClass Object
+        (
+            [Address] => Gharauli gau333
+Mayur Bihar Phase -3
+            [City] => New Delhi
+            [State] => NT
+            [PostalCode] => 110096
+            [Country] => Australia
+        )
+
+    [BillingAddress] => stdClass Object
+        (
+            [Address] => Gharauli gau33333333
+Mayur Bihar Phase -333333
+            [City] => New Delhi
+            [State] => TAS
+            [PostalCode] => 110096
+        )
+
+    [BillingContact] => 110096
+    [PrimaryContact] => stdClass Object
+        (
+            [Contact] => stdClass Object
+                (
+                )
+
+            [Title] => 
+            [GivenName] => 
+            [FamilyName] => 
+            [Email] => 
+            [WorkPhone] => 
+            [CellPhone] => 
+            [Fax] => 
+            [Position] => 
+            [PreferredNotificationMethod] => 
+        )
+
+    [PublicNotes] => 
+    [PrivateNotes] => 
+    [Zone] => stdClass Object
+        (
+        )
+
+    [PreferredTechs] => Array
+        (
+        )
+
+    [PreferredTechnicians] => Array
+        (
+        )
+
+    [DateModified] => 2021-02-20T01:05:20+10:00
+    [Customers] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [ID] => 379
+                    [CompanyName] => account 6:36 test
+                    [GivenName] => 
+                    [FamilyName] => 
+                )
+
+        )
+
+    [Archived] => 
+    [STCZone] => 
+    [VEECZone] => 
+    [CustomFields] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [CustomField] => stdClass Object
+                        (
+                            [ID] => 3
+                            [Name] => Monitoring
+                            [Type] => List
+                            [IsMandatory] => 1
+                            [ListItems] => Array
+                                (
+                                    [0] => Monitoring Active
+                                    [1] => Monitoring Cancelled
+                                )
+
+                        )
+
+                    [Value] => Monitoring Active
+                )
+
+            [1] => stdClass Object
+                (
+                    [CustomField] => stdClass Object
+                        (
+                            [ID] => 39
+                            [Name] => Subscription Service Available?
+                            [Type] => List
+                            [IsMandatory] => 1
+                            [ListItems] => Array
+                                (
+                                    [0] => Yes
+                                    [1] => No
+                                )
+
+                        )
+
+                    [Value] => Yes
+                )
+
+        )
+
+)
+  
+[2021-02-19 15:53:04] local.DEBUG: Site saved in database. SimPro ID: 540  
+[2021-02-19 15:53:04] local.DEBUG: Array
+(
+    [id] => 288
+    [sim_id] => 540
+    [zoho_id] => 4795954000000485002
+    [name] => test123
+    [subscription_service_available] => 1
+    [billing_contact] => 110096
+    [address_id] => 482
+    [billingAddress_id] => 481
+    [public_notes] => 
+    [private_notes] => 
+    [archived] => 
+    [customer_id] => 229
+    [created_at] => 2021-02-19T15:06:09.000000Z
+    [updated_at] => 2021-02-19T15:53:04.000000Z
+    [address] => Array
+        (
+            [id] => 482
+            [customer] => 229
+            [address] => 
+            [city] => 
+            [state] => 
+            [postalCode] => 
+            [country] => 
+            [type] => billing
+            [created_at] => 2021-02-18T13:06:50.000000Z
+            [updated_at] => 2021-02-19T13:57:04.000000Z
+        )
+
+    [billing_address] => Array
+        (
+            [id] => 481
+            [customer] => 229
+            [address] => 
+            [city] => 
+            [state] => 
+            [postalCode] => 
+            [country] => 
+            [type] => address
+            [created_at] => 2021-02-18T13:06:50.000000Z
+            [updated_at] => 2021-02-19T13:57:04.000000Z
+        )
+
+)
+  
+[2021-02-19 15:53:04] local.DEBUG: ugfefreigfiuregfiure  
+[2021-02-19 15:53:04] local.DEBUG: zcrmsdk\crm\crud\ZCRMRecord Object
+(
+    [entityId:zcrmsdk\crm\crud\ZCRMRecord:private] => 4795954000000485002
+    [moduleApiName:zcrmsdk\crm\crud\ZCRMRecord:private] => Sites
+    [lineItems:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [lookupLabel:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [owner:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [createdBy:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [modifiedBy:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [createdTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [modifiedTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [fieldNameVsValue:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [properties:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [participants:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [priceDetails:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [layout:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [taxList:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [lastActivityTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [tags:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [tagnames:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [status:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [error:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [rowNumber:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+)
+  
+[2021-02-19 15:53:05] local.ERROR: App\Jobs\SyncSimProSites:203 Error Code INVALID_DATA  
+[2021-02-19 15:53:05] local.ERROR: App\Jobs\SyncSimProSites:204 Error message:  
+[2021-02-19 15:53:05] local.ERROR: App\Jobs\SyncSimProSites:205 Error Details:  
+[2021-02-19 15:53:06] local.DEBUG: simSite data: 
+stdClass Object
+(
+    [ID] => 543
+    [Name] => test334
+    [Address] => stdClass Object
+        (
+            [Address] => Gharauli gau
+Mayur Bihar Phase -3
+            [City] => New Delhi
+            [State] => 
+            [PostalCode] => 110096
+            [Country] => India
+        )
+
+    [BillingAddress] => stdClass Object
+        (
+            [Address] => Gharauli gau
+Mayur Bihar Phase -3
+            [City] => New Delhi
+            [State] => 
+            [PostalCode] => 110096
+        )
+
+    [BillingContact] => 110096
+    [PrimaryContact] => stdClass Object
+        (
+            [Contact] => stdClass Object
+                (
+                )
+
+            [Title] => 
+            [GivenName] => 
+            [FamilyName] => 
+            [Email] => 
+            [WorkPhone] => 
+            [CellPhone] => 
+            [Fax] => 
+            [Position] => 
+            [PreferredNotificationMethod] => 
+        )
+
+    [PublicNotes] => 
+    [PrivateNotes] => 
+    [Zone] => stdClass Object
+        (
+        )
+
+    [PreferredTechs] => Array
+        (
+        )
+
+    [PreferredTechnicians] => Array
+        (
+        )
+
+    [DateModified] => 2021-02-20T01:42:54+10:00
+    [Customers] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [ID] => 379
+                    [CompanyName] => account 6:36 test
+                    [GivenName] => 
+                    [FamilyName] => 
+                )
+
+        )
+
+    [Archived] => 
+    [STCZone] => 
+    [VEECZone] => 
+    [CustomFields] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [CustomField] => stdClass Object
+                        (
+                            [ID] => 3
+                            [Name] => Monitoring
+                            [Type] => List
+                            [IsMandatory] => 1
+                            [ListItems] => Array
+                                (
+                                    [0] => Monitoring Active
+                                    [1] => Monitoring Cancelled
+                                )
+
+                        )
+
+                    [Value] => Monitoring Active
+                )
+
+            [1] => stdClass Object
+                (
+                    [CustomField] => stdClass Object
+                        (
+                            [ID] => 39
+                            [Name] => Subscription Service Available?
+                            [Type] => List
+                            [IsMandatory] => 1
+                            [ListItems] => Array
+                                (
+                                    [0] => Yes
+                                    [1] => No
+                                )
+
+                        )
+
+                    [Value] => Yes
+                )
+
+        )
+
+)
+  
+[2021-02-19 15:53:06] local.DEBUG: Site saved in database. SimPro ID: 543  
+[2021-02-19 15:53:06] local.DEBUG: Array
+(
+    [id] => 290
+    [sim_id] => 543
+    [zoho_id] => 4795954000000482003
+    [name] => test334
+    [subscription_service_available] => 1
+    [billing_contact] => 110096
+    [address_id] => 482
+    [billingAddress_id] => 481
+    [public_notes] => 
+    [private_notes] => 
+    [archived] => 
+    [customer_id] => 229
+    [created_at] => 2021-02-19T15:44:06.000000Z
+    [updated_at] => 2021-02-19T15:53:06.000000Z
+    [address] => Array
+        (
+            [id] => 482
+            [customer] => 229
+            [address] => 
+            [city] => 
+            [state] => 
+            [postalCode] => 
+            [country] => 
+            [type] => billing
+            [created_at] => 2021-02-18T13:06:50.000000Z
+            [updated_at] => 2021-02-19T13:57:04.000000Z
+        )
+
+    [billing_address] => Array
+        (
+            [id] => 481
+            [customer] => 229
+            [address] => 
+            [city] => 
+            [state] => 
+            [postalCode] => 
+            [country] => 
+            [type] => address
+            [created_at] => 2021-02-18T13:06:50.000000Z
+            [updated_at] => 2021-02-19T13:57:04.000000Z
+        )
+
+)
+  
+[2021-02-19 15:53:06] local.DEBUG: ugfefreigfiuregfiure  
+[2021-02-19 15:53:06] local.DEBUG: zcrmsdk\crm\crud\ZCRMRecord Object
+(
+    [entityId:zcrmsdk\crm\crud\ZCRMRecord:private] => 4795954000000482003
+    [moduleApiName:zcrmsdk\crm\crud\ZCRMRecord:private] => Sites
+    [lineItems:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [lookupLabel:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [owner:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [createdBy:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [modifiedBy:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [createdTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [modifiedTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [fieldNameVsValue:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [properties:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [participants:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [priceDetails:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [layout:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [taxList:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [lastActivityTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [tags:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [tagnames:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [status:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [error:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [rowNumber:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+)
+  
+[2021-02-19 15:53:06] local.DEBUG:  code: 200, status: success  
+[2021-02-19 15:53:06] local.DEBUG: Site created/updated in zoho. SimPro ID: 543, Zoho ID: 4795954000000482003  
+[2021-02-19 15:53:07] local.DEBUG: simSite data: 
+stdClass Object
+(
+    [ID] => 542
+    [Name] => test5656
+    [Address] => stdClass Object
+        (
+            [Address] => Gharauli gau3333
+Mayur Bihar Phase -3333
+            [City] => New Delhi333
+            [State] => QLD
+            [PostalCode] => 1100963333
+            [Country] => India
+        )
+
+    [BillingAddress] => stdClass Object
+        (
+            [Address] => Gharauli gau
+Mayur Bihar Phase -3
+            [City] => New Delhi
+            [State] => TAS
+            [PostalCode] => 110096
+        )
+
+    [BillingContact] => 110096
+    [PrimaryContact] => stdClass Object
+        (
+            [Contact] => stdClass Object
+                (
+                )
+
+            [Title] => 
+            [GivenName] => 
+            [FamilyName] => 
+            [Email] => 
+            [WorkPhone] => 
+            [CellPhone] => 
+            [Fax] => 
+            [Position] => 
+            [PreferredNotificationMethod] => 
+        )
+
+    [PublicNotes] => 
+    [PrivateNotes] => 
+    [Zone] => stdClass Object
+        (
+        )
+
+    [PreferredTechs] => Array
+        (
+        )
+
+    [PreferredTechnicians] => Array
+        (
+        )
+
+    [DateModified] => 2021-02-20T01:51:55+10:00
+    [Customers] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [ID] => 379
+                    [CompanyName] => account 6:36 test
+                    [GivenName] => 
+                    [FamilyName] => 
+                )
+
+        )
+
+    [Archived] => 
+    [STCZone] => 
+    [VEECZone] => 
+    [CustomFields] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [CustomField] => stdClass Object
+                        (
+                            [ID] => 3
+                            [Name] => Monitoring
+                            [Type] => List
+                            [IsMandatory] => 1
+                            [ListItems] => Array
+                                (
+                                    [0] => Monitoring Active
+                                    [1] => Monitoring Cancelled
+                                )
+
+                        )
+
+                    [Value] => Monitoring Active
+                )
+
+            [1] => stdClass Object
+                (
+                    [CustomField] => stdClass Object
+                        (
+                            [ID] => 39
+                            [Name] => Subscription Service Available?
+                            [Type] => List
+                            [IsMandatory] => 1
+                            [ListItems] => Array
+                                (
+                                    [0] => Yes
+                                    [1] => No
+                                )
+
+                        )
+
+                    [Value] => Yes
+                )
+
+        )
+
+)
+  
+[2021-02-19 15:53:07] local.DEBUG: Site saved in database. SimPro ID: 542  
+[2021-02-19 15:53:07] local.DEBUG: Array
+(
+    [id] => 289
+    [sim_id] => 542
+    [zoho_id] => 4795954000000483008
+    [name] => test5656
+    [subscription_service_available] => 1
+    [billing_contact] => 110096
+    [address_id] => 482
+    [billingAddress_id] => 481
+    [public_notes] => 
+    [private_notes] => 
+    [archived] => 
+    [customer_id] => 229
+    [created_at] => 2021-02-19T15:40:05.000000Z
+    [updated_at] => 2021-02-19T15:53:07.000000Z
+    [address] => Array
+        (
+            [id] => 482
+            [customer] => 229
+            [address] => 
+            [city] => 
+            [state] => 
+            [postalCode] => 
+            [country] => 
+            [type] => billing
+            [created_at] => 2021-02-18T13:06:50.000000Z
+            [updated_at] => 2021-02-19T13:57:04.000000Z
+        )
+
+    [billing_address] => Array
+        (
+            [id] => 481
+            [customer] => 229
+            [address] => 
+            [city] => 
+            [state] => 
+            [postalCode] => 
+            [country] => 
+            [type] => address
+            [created_at] => 2021-02-18T13:06:50.000000Z
+            [updated_at] => 2021-02-19T13:57:04.000000Z
+        )
+
+)
+  
+[2021-02-19 15:53:07] local.DEBUG: ugfefreigfiuregfiure  
+[2021-02-19 15:53:07] local.DEBUG: zcrmsdk\crm\crud\ZCRMRecord Object
+(
+    [entityId:zcrmsdk\crm\crud\ZCRMRecord:private] => 4795954000000483008
+    [moduleApiName:zcrmsdk\crm\crud\ZCRMRecord:private] => Sites
+    [lineItems:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [lookupLabel:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [owner:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [createdBy:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [modifiedBy:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [createdTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [modifiedTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [fieldNameVsValue:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [properties:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [participants:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [priceDetails:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [layout:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [taxList:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [lastActivityTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [tags:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [tagnames:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [status:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [error:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [rowNumber:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+)
+  
+[2021-02-19 15:53:07] local.ERROR: App\Jobs\SyncSimProSites:203 Error Code INVALID_DATA  
+[2021-02-19 15:53:07] local.ERROR: App\Jobs\SyncSimProSites:204 Error message:  
+[2021-02-19 15:53:07] local.ERROR: App\Jobs\SyncSimProSites:205 Error Details: {"maximum_length":9,"api_name":"Postal_Postcode"} 
+[2021-02-19 15:53:08] local.DEBUG: simSite data: 
+stdClass Object
+(
+    [ID] => 541
+    [Name] => test8:58
+    [Address] => stdClass Object
+        (
+            [Address] => Gharauli gau33
+Mayur Bihar Phase -3
+            [City] => New Delhi
+            [State] => QLD
+            [PostalCode] => 110096
+            [Country] => Australia
+        )
+
+    [BillingAddress] => stdClass Object
+        (
+            [Address] => Gharauli gau33333
+Mayur Bihar Phase -333
+            [City] => New Delhi3
+            [State] => TAS
+            [PostalCode] => 110096333
+        )
+
+    [BillingContact] => 110096333
+    [PrimaryContact] => stdClass Object
+        (
+            [Contact] => stdClass Object
+                (
+                )
+
+            [Title] => 
+            [GivenName] => 
+            [FamilyName] => 
+            [Email] => 
+            [WorkPhone] => 
+            [CellPhone] => 
+            [Fax] => 
+            [Position] => 
+            [PreferredNotificationMethod] => 
+        )
+
+    [PublicNotes] => 
+    [PrivateNotes] => 
+    [Zone] => stdClass Object
+        (
+        )
+
+    [PreferredTechs] => Array
+        (
+        )
+
+    [PreferredTechnicians] => Array
+        (
+        )
+
+    [DateModified] => 2021-02-20T01:29:09+10:00
+    [Customers] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [ID] => 379
+                    [CompanyName] => account 6:36 test
+                    [GivenName] => 
+                    [FamilyName] => 
+                )
+
+        )
+
+    [Archived] => 
+    [STCZone] => 
+    [VEECZone] => 
+    [CustomFields] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [CustomField] => stdClass Object
+                        (
+                            [ID] => 3
+                            [Name] => Monitoring
+                            [Type] => List
+                            [IsMandatory] => 1
+                            [ListItems] => Array
+                                (
+                                    [0] => Monitoring Active
+                                    [1] => Monitoring Cancelled
+                                )
+
+                        )
+
+                    [Value] => Monitoring Active
+                )
+
+            [1] => stdClass Object
+                (
+                    [CustomField] => stdClass Object
+                        (
+                            [ID] => 39
+                            [Name] => Subscription Service Available?
+                            [Type] => List
+                            [IsMandatory] => 1
+                            [ListItems] => Array
+                                (
+                                    [0] => Yes
+                                    [1] => No
+                                )
+
+                        )
+
+                    [Value] => Yes
+                )
+
+        )
+
+)
+  
+[2021-02-19 15:53:08] local.DEBUG: Site saved in database. SimPro ID: 541  
+[2021-02-19 15:53:08] local.DEBUG: Array
+(
+    [id] => 291
+    [sim_id] => 541
+    [zoho_id] => 4795954000000475002
+    [name] => test8:58
+    [subscription_service_available] => 1
+    [billing_contact] => 110096333
+    [address_id] => 482
+    [billingAddress_id] => 481
+    [public_notes] => 
+    [private_notes] => 
+    [archived] => 
+    [customer_id] => 229
+    [created_at] => 2021-02-19T15:44:07.000000Z
+    [updated_at] => 2021-02-19T15:53:08.000000Z
+    [address] => Array
+        (
+            [id] => 482
+            [customer] => 229
+            [address] => 
+            [city] => 
+            [state] => 
+            [postalCode] => 
+            [country] => 
+            [type] => billing
+            [created_at] => 2021-02-18T13:06:50.000000Z
+            [updated_at] => 2021-02-19T13:57:04.000000Z
+        )
+
+    [billing_address] => Array
+        (
+            [id] => 481
+            [customer] => 229
+            [address] => 
+            [city] => 
+            [state] => 
+            [postalCode] => 
+            [country] => 
+            [type] => address
+            [created_at] => 2021-02-18T13:06:50.000000Z
+            [updated_at] => 2021-02-19T13:57:04.000000Z
+        )
+
+)
+  
+[2021-02-19 15:53:08] local.DEBUG: ugfefreigfiuregfiure  
+[2021-02-19 15:53:08] local.DEBUG: zcrmsdk\crm\crud\ZCRMRecord Object
+(
+    [entityId:zcrmsdk\crm\crud\ZCRMRecord:private] => 4795954000000475002
+    [moduleApiName:zcrmsdk\crm\crud\ZCRMRecord:private] => Sites
+    [lineItems:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [lookupLabel:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [owner:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [createdBy:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [modifiedBy:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [createdTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [modifiedTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [fieldNameVsValue:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [properties:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [participants:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [priceDetails:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [layout:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [taxList:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [lastActivityTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [tags:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [tagnames:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [status:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [error:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [rowNumber:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+)
+  
+[2021-02-19 15:53:09] local.DEBUG:  code: 200, status: success  
+[2021-02-19 15:53:09] local.DEBUG: Site created/updated in zoho. SimPro ID: 541, Zoho ID: 4795954000000475002  
+[2021-02-19 15:54:03] local.DEBUG: simpro webhooks data {"ID":"company.customer.updated","build":"elementtest.simprosuite.com","description":"Company customer #379 has been updated.","name":"Company customer","action":"updated","reference":{"companyID":0,"customerID":379,"companyCustomerID":379},"date_triggered":"2021-02-20T01:53:17+10:00"} 
+[2021-02-19 15:54:04] local.DEBUG: No change in the customer information:   
+[2021-02-19 15:54:04] local.DEBUG: simSite data: 
+stdClass Object
+(
+    [ID] => 540
+    [Name] => test123
+    [Address] => stdClass Object
+        (
+            [Address] => Gharauli gau333
+Mayur Bihar Phase -3
+            [City] => New Delhi
+            [State] => NT
+            [PostalCode] => 110096
+            [Country] => Australia
+        )
+
+    [BillingAddress] => stdClass Object
+        (
+            [Address] => Gharauli gau33333333
+Mayur Bihar Phase -333333
+            [City] => New Delhi
+            [State] => TAS
+            [PostalCode] => 110096
+        )
+
+    [BillingContact] => 110096
+    [PrimaryContact] => stdClass Object
+        (
+            [Contact] => stdClass Object
+                (
+                )
+
+            [Title] => 
+            [GivenName] => 
+            [FamilyName] => 
+            [Email] => 
+            [WorkPhone] => 
+            [CellPhone] => 
+            [Fax] => 
+            [Position] => 
+            [PreferredNotificationMethod] => 
+        )
+
+    [PublicNotes] => 
+    [PrivateNotes] => 
+    [Zone] => stdClass Object
+        (
+        )
+
+    [PreferredTechs] => Array
+        (
+        )
+
+    [PreferredTechnicians] => Array
+        (
+        )
+
+    [DateModified] => 2021-02-20T01:05:20+10:00
+    [Customers] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [ID] => 379
+                    [CompanyName] => account 6:36 test
+                    [GivenName] => 
+                    [FamilyName] => 
+                )
+
+        )
+
+    [Archived] => 
+    [STCZone] => 
+    [VEECZone] => 
+    [CustomFields] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [CustomField] => stdClass Object
+                        (
+                            [ID] => 3
+                            [Name] => Monitoring
+                            [Type] => List
+                            [IsMandatory] => 1
+                            [ListItems] => Array
+                                (
+                                    [0] => Monitoring Active
+                                    [1] => Monitoring Cancelled
+                                )
+
+                        )
+
+                    [Value] => Monitoring Active
+                )
+
+            [1] => stdClass Object
+                (
+                    [CustomField] => stdClass Object
+                        (
+                            [ID] => 39
+                            [Name] => Subscription Service Available?
+                            [Type] => List
+                            [IsMandatory] => 1
+                            [ListItems] => Array
+                                (
+                                    [0] => Yes
+                                    [1] => No
+                                )
+
+                        )
+
+                    [Value] => Yes
+                )
+
+        )
+
+)
+  
+[2021-02-19 15:54:04] local.DEBUG: Site saved in database. SimPro ID: 540  
+[2021-02-19 15:54:04] local.DEBUG: Array
+(
+    [id] => 288
+    [sim_id] => 540
+    [zoho_id] => 4795954000000485002
+    [name] => test123
+    [subscription_service_available] => 1
+    [billing_contact] => 110096
+    [address_id] => 482
+    [billingAddress_id] => 481
+    [public_notes] => 
+    [private_notes] => 
+    [archived] => 
+    [customer_id] => 229
+    [created_at] => 2021-02-19T15:06:09.000000Z
+    [updated_at] => 2021-02-19T15:54:04.000000Z
+    [address] => Array
+        (
+            [id] => 482
+            [customer] => 229
+            [address] => 
+            [city] => 
+            [state] => 
+            [postalCode] => 
+            [country] => 
+            [type] => billing
+            [created_at] => 2021-02-18T13:06:50.000000Z
+            [updated_at] => 2021-02-19T13:57:04.000000Z
+        )
+
+    [billing_address] => Array
+        (
+            [id] => 481
+            [customer] => 229
+            [address] => 
+            [city] => 
+            [state] => 
+            [postalCode] => 
+            [country] => 
+            [type] => address
+            [created_at] => 2021-02-18T13:06:50.000000Z
+            [updated_at] => 2021-02-19T13:57:04.000000Z
+        )
+
+)
+  
+[2021-02-19 15:54:04] local.DEBUG: ugfefreigfiuregfiure  
+[2021-02-19 15:54:04] local.DEBUG: zcrmsdk\crm\crud\ZCRMRecord Object
+(
+    [entityId:zcrmsdk\crm\crud\ZCRMRecord:private] => 4795954000000485002
+    [moduleApiName:zcrmsdk\crm\crud\ZCRMRecord:private] => Sites
+    [lineItems:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [lookupLabel:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [owner:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [createdBy:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [modifiedBy:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [createdTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [modifiedTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [fieldNameVsValue:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [properties:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [participants:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [priceDetails:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [layout:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [taxList:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [lastActivityTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [tags:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [tagnames:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [status:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [error:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [rowNumber:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+)
+  
+[2021-02-19 15:54:05] local.ERROR: App\Jobs\SyncSimProSites:203 Error Code INVALID_DATA  
+[2021-02-19 15:54:05] local.ERROR: App\Jobs\SyncSimProSites:204 Error message:  
+[2021-02-19 15:54:05] local.ERROR: App\Jobs\SyncSimProSites:205 Error Details:  
+[2021-02-19 15:54:06] local.DEBUG: simSite data: 
+stdClass Object
+(
+    [ID] => 543
+    [Name] => test334
+    [Address] => stdClass Object
+        (
+            [Address] => Gharauli gau
+Mayur Bihar Phase -3
+            [City] => New Delhi
+            [State] => 
+            [PostalCode] => 110096
+            [Country] => India
+        )
+
+    [BillingAddress] => stdClass Object
+        (
+            [Address] => Gharauli gau
+Mayur Bihar Phase -3
+            [City] => New Delhi
+            [State] => 
+            [PostalCode] => 110096
+        )
+
+    [BillingContact] => 110096
+    [PrimaryContact] => stdClass Object
+        (
+            [Contact] => stdClass Object
+                (
+                )
+
+            [Title] => 
+            [GivenName] => 
+            [FamilyName] => 
+            [Email] => 
+            [WorkPhone] => 
+            [CellPhone] => 
+            [Fax] => 
+            [Position] => 
+            [PreferredNotificationMethod] => 
+        )
+
+    [PublicNotes] => 
+    [PrivateNotes] => 
+    [Zone] => stdClass Object
+        (
+        )
+
+    [PreferredTechs] => Array
+        (
+        )
+
+    [PreferredTechnicians] => Array
+        (
+        )
+
+    [DateModified] => 2021-02-20T01:42:54+10:00
+    [Customers] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [ID] => 379
+                    [CompanyName] => account 6:36 test
+                    [GivenName] => 
+                    [FamilyName] => 
+                )
+
+        )
+
+    [Archived] => 
+    [STCZone] => 
+    [VEECZone] => 
+    [CustomFields] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [CustomField] => stdClass Object
+                        (
+                            [ID] => 3
+                            [Name] => Monitoring
+                            [Type] => List
+                            [IsMandatory] => 1
+                            [ListItems] => Array
+                                (
+                                    [0] => Monitoring Active
+                                    [1] => Monitoring Cancelled
+                                )
+
+                        )
+
+                    [Value] => Monitoring Active
+                )
+
+            [1] => stdClass Object
+                (
+                    [CustomField] => stdClass Object
+                        (
+                            [ID] => 39
+                            [Name] => Subscription Service Available?
+                            [Type] => List
+                            [IsMandatory] => 1
+                            [ListItems] => Array
+                                (
+                                    [0] => Yes
+                                    [1] => No
+                                )
+
+                        )
+
+                    [Value] => Yes
+                )
+
+        )
+
+)
+  
+[2021-02-19 15:54:06] local.DEBUG: Site saved in database. SimPro ID: 543  
+[2021-02-19 15:54:06] local.DEBUG: Array
+(
+    [id] => 290
+    [sim_id] => 543
+    [zoho_id] => 4795954000000482003
+    [name] => test334
+    [subscription_service_available] => 1
+    [billing_contact] => 110096
+    [address_id] => 482
+    [billingAddress_id] => 481
+    [public_notes] => 
+    [private_notes] => 
+    [archived] => 
+    [customer_id] => 229
+    [created_at] => 2021-02-19T15:44:06.000000Z
+    [updated_at] => 2021-02-19T15:54:06.000000Z
+    [address] => Array
+        (
+            [id] => 482
+            [customer] => 229
+            [address] => 
+            [city] => 
+            [state] => 
+            [postalCode] => 
+            [country] => 
+            [type] => billing
+            [created_at] => 2021-02-18T13:06:50.000000Z
+            [updated_at] => 2021-02-19T13:57:04.000000Z
+        )
+
+    [billing_address] => Array
+        (
+            [id] => 481
+            [customer] => 229
+            [address] => 
+            [city] => 
+            [state] => 
+            [postalCode] => 
+            [country] => 
+            [type] => address
+            [created_at] => 2021-02-18T13:06:50.000000Z
+            [updated_at] => 2021-02-19T13:57:04.000000Z
+        )
+
+)
+  
+[2021-02-19 15:54:06] local.DEBUG: ugfefreigfiuregfiure  
+[2021-02-19 15:54:06] local.DEBUG: zcrmsdk\crm\crud\ZCRMRecord Object
+(
+    [entityId:zcrmsdk\crm\crud\ZCRMRecord:private] => 4795954000000482003
+    [moduleApiName:zcrmsdk\crm\crud\ZCRMRecord:private] => Sites
+    [lineItems:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [lookupLabel:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [owner:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [createdBy:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [modifiedBy:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [createdTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [modifiedTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [fieldNameVsValue:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [properties:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [participants:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [priceDetails:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [layout:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [taxList:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [lastActivityTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [tags:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [tagnames:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [status:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [error:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [rowNumber:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+)
+  
+[2021-02-19 15:54:06] local.DEBUG:  code: 200, status: success  
+[2021-02-19 15:54:06] local.DEBUG: Site created/updated in zoho. SimPro ID: 543, Zoho ID: 4795954000000482003  
+[2021-02-19 15:54:07] local.DEBUG: simSite data: 
+stdClass Object
+(
+    [ID] => 542
+    [Name] => test5656
+    [Address] => stdClass Object
+        (
+            [Address] => Gharauli gau3333
+Mayur Bihar Phase -3333
+            [City] => New Delhi333
+            [State] => QLD
+            [PostalCode] => 1100963333
+            [Country] => India
+        )
+
+    [BillingAddress] => stdClass Object
+        (
+            [Address] => Gharauli gau
+Mayur Bihar Phase -3
+            [City] => New Delhi
+            [State] => TAS
+            [PostalCode] => 110096
+        )
+
+    [BillingContact] => 110096
+    [PrimaryContact] => stdClass Object
+        (
+            [Contact] => stdClass Object
+                (
+                )
+
+            [Title] => 
+            [GivenName] => 
+            [FamilyName] => 
+            [Email] => 
+            [WorkPhone] => 
+            [CellPhone] => 
+            [Fax] => 
+            [Position] => 
+            [PreferredNotificationMethod] => 
+        )
+
+    [PublicNotes] => 
+    [PrivateNotes] => 
+    [Zone] => stdClass Object
+        (
+        )
+
+    [PreferredTechs] => Array
+        (
+        )
+
+    [PreferredTechnicians] => Array
+        (
+        )
+
+    [DateModified] => 2021-02-20T01:51:55+10:00
+    [Customers] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [ID] => 379
+                    [CompanyName] => account 6:36 test
+                    [GivenName] => 
+                    [FamilyName] => 
+                )
+
+        )
+
+    [Archived] => 
+    [STCZone] => 
+    [VEECZone] => 
+    [CustomFields] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [CustomField] => stdClass Object
+                        (
+                            [ID] => 3
+                            [Name] => Monitoring
+                            [Type] => List
+                            [IsMandatory] => 1
+                            [ListItems] => Array
+                                (
+                                    [0] => Monitoring Active
+                                    [1] => Monitoring Cancelled
+                                )
+
+                        )
+
+                    [Value] => Monitoring Active
+                )
+
+            [1] => stdClass Object
+                (
+                    [CustomField] => stdClass Object
+                        (
+                            [ID] => 39
+                            [Name] => Subscription Service Available?
+                            [Type] => List
+                            [IsMandatory] => 1
+                            [ListItems] => Array
+                                (
+                                    [0] => Yes
+                                    [1] => No
+                                )
+
+                        )
+
+                    [Value] => Yes
+                )
+
+        )
+
+)
+  
+[2021-02-19 15:54:07] local.DEBUG: Site saved in database. SimPro ID: 542  
+[2021-02-19 15:54:07] local.DEBUG: Array
+(
+    [id] => 289
+    [sim_id] => 542
+    [zoho_id] => 4795954000000483008
+    [name] => test5656
+    [subscription_service_available] => 1
+    [billing_contact] => 110096
+    [address_id] => 482
+    [billingAddress_id] => 481
+    [public_notes] => 
+    [private_notes] => 
+    [archived] => 
+    [customer_id] => 229
+    [created_at] => 2021-02-19T15:40:05.000000Z
+    [updated_at] => 2021-02-19T15:54:07.000000Z
+    [address] => Array
+        (
+            [id] => 482
+            [customer] => 229
+            [address] => 
+            [city] => 
+            [state] => 
+            [postalCode] => 
+            [country] => 
+            [type] => billing
+            [created_at] => 2021-02-18T13:06:50.000000Z
+            [updated_at] => 2021-02-19T13:57:04.000000Z
+        )
+
+    [billing_address] => Array
+        (
+            [id] => 481
+            [customer] => 229
+            [address] => 
+            [city] => 
+            [state] => 
+            [postalCode] => 
+            [country] => 
+            [type] => address
+            [created_at] => 2021-02-18T13:06:50.000000Z
+            [updated_at] => 2021-02-19T13:57:04.000000Z
+        )
+
+)
+  
+[2021-02-19 15:54:07] local.DEBUG: ugfefreigfiuregfiure  
+[2021-02-19 15:54:07] local.DEBUG: zcrmsdk\crm\crud\ZCRMRecord Object
+(
+    [entityId:zcrmsdk\crm\crud\ZCRMRecord:private] => 4795954000000483008
+    [moduleApiName:zcrmsdk\crm\crud\ZCRMRecord:private] => Sites
+    [lineItems:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [lookupLabel:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [owner:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [createdBy:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [modifiedBy:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [createdTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [modifiedTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [fieldNameVsValue:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [properties:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [participants:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [priceDetails:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [layout:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [taxList:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [lastActivityTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [tags:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [tagnames:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [status:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [error:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [rowNumber:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+)
+  
+[2021-02-19 15:54:07] local.ERROR: App\Jobs\SyncSimProSites:203 Error Code INVALID_DATA  
+[2021-02-19 15:54:07] local.ERROR: App\Jobs\SyncSimProSites:204 Error message:  
+[2021-02-19 15:54:07] local.ERROR: App\Jobs\SyncSimProSites:205 Error Details: {"maximum_length":9,"api_name":"Postal_Postcode"} 
+[2021-02-19 15:54:08] local.DEBUG: simSite data: 
+stdClass Object
+(
+    [ID] => 541
+    [Name] => test8:58
+    [Address] => stdClass Object
+        (
+            [Address] => Gharauli gau33
+Mayur Bihar Phase -3
+            [City] => New Delhi
+            [State] => QLD
+            [PostalCode] => 110096
+            [Country] => Australia
+        )
+
+    [BillingAddress] => stdClass Object
+        (
+            [Address] => Gharauli gau33333
+Mayur Bihar Phase -333
+            [City] => New Delhi3
+            [State] => TAS
+            [PostalCode] => 110096333
+        )
+
+    [BillingContact] => 110096333
+    [PrimaryContact] => stdClass Object
+        (
+            [Contact] => stdClass Object
+                (
+                )
+
+            [Title] => 
+            [GivenName] => 
+            [FamilyName] => 
+            [Email] => 
+            [WorkPhone] => 
+            [CellPhone] => 
+            [Fax] => 
+            [Position] => 
+            [PreferredNotificationMethod] => 
+        )
+
+    [PublicNotes] => 
+    [PrivateNotes] => 
+    [Zone] => stdClass Object
+        (
+        )
+
+    [PreferredTechs] => Array
+        (
+        )
+
+    [PreferredTechnicians] => Array
+        (
+        )
+
+    [DateModified] => 2021-02-20T01:29:09+10:00
+    [Customers] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [ID] => 379
+                    [CompanyName] => account 6:36 test
+                    [GivenName] => 
+                    [FamilyName] => 
+                )
+
+        )
+
+    [Archived] => 
+    [STCZone] => 
+    [VEECZone] => 
+    [CustomFields] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [CustomField] => stdClass Object
+                        (
+                            [ID] => 3
+                            [Name] => Monitoring
+                            [Type] => List
+                            [IsMandatory] => 1
+                            [ListItems] => Array
+                                (
+                                    [0] => Monitoring Active
+                                    [1] => Monitoring Cancelled
+                                )
+
+                        )
+
+                    [Value] => Monitoring Active
+                )
+
+            [1] => stdClass Object
+                (
+                    [CustomField] => stdClass Object
+                        (
+                            [ID] => 39
+                            [Name] => Subscription Service Available?
+                            [Type] => List
+                            [IsMandatory] => 1
+                            [ListItems] => Array
+                                (
+                                    [0] => Yes
+                                    [1] => No
+                                )
+
+                        )
+
+                    [Value] => Yes
+                )
+
+        )
+
+)
+  
+[2021-02-19 15:54:08] local.DEBUG: Site saved in database. SimPro ID: 541  
+[2021-02-19 15:54:08] local.DEBUG: Array
+(
+    [id] => 291
+    [sim_id] => 541
+    [zoho_id] => 4795954000000475002
+    [name] => test8:58
+    [subscription_service_available] => 1
+    [billing_contact] => 110096333
+    [address_id] => 482
+    [billingAddress_id] => 481
+    [public_notes] => 
+    [private_notes] => 
+    [archived] => 
+    [customer_id] => 229
+    [created_at] => 2021-02-19T15:44:07.000000Z
+    [updated_at] => 2021-02-19T15:54:08.000000Z
+    [address] => Array
+        (
+            [id] => 482
+            [customer] => 229
+            [address] => 
+            [city] => 
+            [state] => 
+            [postalCode] => 
+            [country] => 
+            [type] => billing
+            [created_at] => 2021-02-18T13:06:50.000000Z
+            [updated_at] => 2021-02-19T13:57:04.000000Z
+        )
+
+    [billing_address] => Array
+        (
+            [id] => 481
+            [customer] => 229
+            [address] => 
+            [city] => 
+            [state] => 
+            [postalCode] => 
+            [country] => 
+            [type] => address
+            [created_at] => 2021-02-18T13:06:50.000000Z
+            [updated_at] => 2021-02-19T13:57:04.000000Z
+        )
+
+)
+  
+[2021-02-19 15:54:08] local.DEBUG: ugfefreigfiuregfiure  
+[2021-02-19 15:54:08] local.DEBUG: zcrmsdk\crm\crud\ZCRMRecord Object
+(
+    [entityId:zcrmsdk\crm\crud\ZCRMRecord:private] => 4795954000000475002
+    [moduleApiName:zcrmsdk\crm\crud\ZCRMRecord:private] => Sites
+    [lineItems:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [lookupLabel:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [owner:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [createdBy:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [modifiedBy:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [createdTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [modifiedTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [fieldNameVsValue:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [properties:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [participants:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [priceDetails:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [layout:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [taxList:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [lastActivityTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [tags:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [tagnames:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [status:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [error:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [rowNumber:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+)
+  
+[2021-02-19 15:54:08] local.DEBUG:  code: 200, status: success  
+[2021-02-19 15:54:08] local.DEBUG: Site created/updated in zoho. SimPro ID: 541, Zoho ID: 4795954000000475002  
+[2021-02-19 15:57:02] local.DEBUG: simpro webhooks data {"ID":"company.customer.updated","build":"elementtest.simprosuite.com","description":"Company customer #379 has been updated.","name":"Company customer","action":"updated","reference":{"companyID":0,"customerID":379,"companyCustomerID":379},"date_triggered":"2021-02-20T01:56:31+10:00"} 
+[2021-02-19 15:57:03] local.DEBUG: No change in the customer information:   
+[2021-02-19 15:57:04] local.DEBUG: simSite data: 
+stdClass Object
+(
+    [ID] => 540
+    [Name] => test123
+    [Address] => stdClass Object
+        (
+            [Address] => Gharauli gau333
+Mayur Bihar Phase -3
+            [City] => New Delhi
+            [State] => NT
+            [PostalCode] => 110096
+            [Country] => Australia
+        )
+
+    [BillingAddress] => stdClass Object
+        (
+            [Address] => Gharauli gau33333333
+Mayur Bihar Phase -333333
+            [City] => New Delhi
+            [State] => TAS
+            [PostalCode] => 110096
+        )
+
+    [BillingContact] => 110096
+    [PrimaryContact] => stdClass Object
+        (
+            [Contact] => stdClass Object
+                (
+                )
+
+            [Title] => 
+            [GivenName] => 
+            [FamilyName] => 
+            [Email] => 
+            [WorkPhone] => 
+            [CellPhone] => 
+            [Fax] => 
+            [Position] => 
+            [PreferredNotificationMethod] => 
+        )
+
+    [PublicNotes] => 
+    [PrivateNotes] => 
+    [Zone] => stdClass Object
+        (
+        )
+
+    [PreferredTechs] => Array
+        (
+        )
+
+    [PreferredTechnicians] => Array
+        (
+        )
+
+    [DateModified] => 2021-02-20T01:05:20+10:00
+    [Customers] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [ID] => 379
+                    [CompanyName] => account 6:36 test
+                    [GivenName] => 
+                    [FamilyName] => 
+                )
+
+        )
+
+    [Archived] => 
+    [STCZone] => 
+    [VEECZone] => 
+    [CustomFields] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [CustomField] => stdClass Object
+                        (
+                            [ID] => 3
+                            [Name] => Monitoring
+                            [Type] => List
+                            [IsMandatory] => 1
+                            [ListItems] => Array
+                                (
+                                    [0] => Monitoring Active
+                                    [1] => Monitoring Cancelled
+                                )
+
+                        )
+
+                    [Value] => Monitoring Active
+                )
+
+            [1] => stdClass Object
+                (
+                    [CustomField] => stdClass Object
+                        (
+                            [ID] => 39
+                            [Name] => Subscription Service Available?
+                            [Type] => List
+                            [IsMandatory] => 1
+                            [ListItems] => Array
+                                (
+                                    [0] => Yes
+                                    [1] => No
+                                )
+
+                        )
+
+                    [Value] => Yes
+                )
+
+        )
+
+)
+  
+[2021-02-19 15:57:04] local.DEBUG: Site saved in database. SimPro ID: 540  
+[2021-02-19 15:57:04] local.DEBUG: Array
+(
+    [id] => 288
+    [sim_id] => 540
+    [zoho_id] => 4795954000000485002
+    [name] => test123
+    [subscription_service_available] => 1
+    [billing_contact] => 110096
+    [address_id] => 482
+    [billingAddress_id] => 481
+    [public_notes] => 
+    [private_notes] => 
+    [archived] => 
+    [customer_id] => 229
+    [created_at] => 2021-02-19T15:06:09.000000Z
+    [updated_at] => 2021-02-19T15:57:04.000000Z
+    [address] => Array
+        (
+            [id] => 482
+            [customer] => 229
+            [address] => 
+            [city] => 
+            [state] => 
+            [postalCode] => 
+            [country] => 
+            [type] => billing
+            [created_at] => 2021-02-18T13:06:50.000000Z
+            [updated_at] => 2021-02-19T13:57:04.000000Z
+        )
+
+    [billing_address] => Array
+        (
+            [id] => 481
+            [customer] => 229
+            [address] => 
+            [city] => 
+            [state] => 
+            [postalCode] => 
+            [country] => 
+            [type] => address
+            [created_at] => 2021-02-18T13:06:50.000000Z
+            [updated_at] => 2021-02-19T13:57:04.000000Z
+        )
+
+)
+  
+[2021-02-19 15:57:04] local.DEBUG: ugfefreigfiuregfiure  
+[2021-02-19 15:57:04] local.DEBUG: zcrmsdk\crm\crud\ZCRMRecord Object
+(
+    [entityId:zcrmsdk\crm\crud\ZCRMRecord:private] => 4795954000000485002
+    [moduleApiName:zcrmsdk\crm\crud\ZCRMRecord:private] => Sites
+    [lineItems:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [lookupLabel:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [owner:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [createdBy:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [modifiedBy:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [createdTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [modifiedTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [fieldNameVsValue:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [properties:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [participants:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [priceDetails:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [layout:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [taxList:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [lastActivityTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [tags:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [tagnames:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [status:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [error:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [rowNumber:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+)
+  
+[2021-02-19 15:57:05] local.ERROR: App\Jobs\SyncSimProSites:203 Error Code INVALID_DATA  
+[2021-02-19 15:57:05] local.ERROR: App\Jobs\SyncSimProSites:204 Error message:  
+[2021-02-19 15:57:05] local.ERROR: App\Jobs\SyncSimProSites:205 Error Details:  
+[2021-02-19 15:57:06] local.DEBUG: simSite data: 
+stdClass Object
+(
+    [ID] => 543
+    [Name] => test334
+    [Address] => stdClass Object
+        (
+            [Address] => Gharauli gau
+Mayur Bihar Phase -3
+            [City] => New Delhi
+            [State] => 
+            [PostalCode] => 110096
+            [Country] => India
+        )
+
+    [BillingAddress] => stdClass Object
+        (
+            [Address] => Gharauli gau
+Mayur Bihar Phase -3
+            [City] => New Delhi
+            [State] => 
+            [PostalCode] => 110096
+        )
+
+    [BillingContact] => 110096
+    [PrimaryContact] => stdClass Object
+        (
+            [Contact] => stdClass Object
+                (
+                )
+
+            [Title] => 
+            [GivenName] => 
+            [FamilyName] => 
+            [Email] => 
+            [WorkPhone] => 
+            [CellPhone] => 
+            [Fax] => 
+            [Position] => 
+            [PreferredNotificationMethod] => 
+        )
+
+    [PublicNotes] => 
+    [PrivateNotes] => 
+    [Zone] => stdClass Object
+        (
+        )
+
+    [PreferredTechs] => Array
+        (
+        )
+
+    [PreferredTechnicians] => Array
+        (
+        )
+
+    [DateModified] => 2021-02-20T01:42:54+10:00
+    [Customers] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [ID] => 379
+                    [CompanyName] => account 6:36 test
+                    [GivenName] => 
+                    [FamilyName] => 
+                )
+
+        )
+
+    [Archived] => 
+    [STCZone] => 
+    [VEECZone] => 
+    [CustomFields] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [CustomField] => stdClass Object
+                        (
+                            [ID] => 3
+                            [Name] => Monitoring
+                            [Type] => List
+                            [IsMandatory] => 1
+                            [ListItems] => Array
+                                (
+                                    [0] => Monitoring Active
+                                    [1] => Monitoring Cancelled
+                                )
+
+                        )
+
+                    [Value] => Monitoring Active
+                )
+
+            [1] => stdClass Object
+                (
+                    [CustomField] => stdClass Object
+                        (
+                            [ID] => 39
+                            [Name] => Subscription Service Available?
+                            [Type] => List
+                            [IsMandatory] => 1
+                            [ListItems] => Array
+                                (
+                                    [0] => Yes
+                                    [1] => No
+                                )
+
+                        )
+
+                    [Value] => Yes
+                )
+
+        )
+
+)
+  
+[2021-02-19 15:57:06] local.DEBUG: Site saved in database. SimPro ID: 543  
+[2021-02-19 15:57:06] local.DEBUG: Array
+(
+    [id] => 290
+    [sim_id] => 543
+    [zoho_id] => 4795954000000482003
+    [name] => test334
+    [subscription_service_available] => 1
+    [billing_contact] => 110096
+    [address_id] => 482
+    [billingAddress_id] => 481
+    [public_notes] => 
+    [private_notes] => 
+    [archived] => 
+    [customer_id] => 229
+    [created_at] => 2021-02-19T15:44:06.000000Z
+    [updated_at] => 2021-02-19T15:57:06.000000Z
+    [address] => Array
+        (
+            [id] => 482
+            [customer] => 229
+            [address] => 
+            [city] => 
+            [state] => 
+            [postalCode] => 
+            [country] => 
+            [type] => billing
+            [created_at] => 2021-02-18T13:06:50.000000Z
+            [updated_at] => 2021-02-19T13:57:04.000000Z
+        )
+
+    [billing_address] => Array
+        (
+            [id] => 481
+            [customer] => 229
+            [address] => 
+            [city] => 
+            [state] => 
+            [postalCode] => 
+            [country] => 
+            [type] => address
+            [created_at] => 2021-02-18T13:06:50.000000Z
+            [updated_at] => 2021-02-19T13:57:04.000000Z
+        )
+
+)
+  
+[2021-02-19 15:57:06] local.DEBUG: ugfefreigfiuregfiure  
+[2021-02-19 15:57:06] local.DEBUG: zcrmsdk\crm\crud\ZCRMRecord Object
+(
+    [entityId:zcrmsdk\crm\crud\ZCRMRecord:private] => 4795954000000482003
+    [moduleApiName:zcrmsdk\crm\crud\ZCRMRecord:private] => Sites
+    [lineItems:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [lookupLabel:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [owner:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [createdBy:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [modifiedBy:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [createdTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [modifiedTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [fieldNameVsValue:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [properties:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [participants:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [priceDetails:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [layout:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [taxList:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [lastActivityTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [tags:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [tagnames:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [status:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [error:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [rowNumber:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+)
+  
+[2021-02-19 15:57:06] local.DEBUG:  code: 200, status: success  
+[2021-02-19 15:57:06] local.DEBUG: Site created/updated in zoho. SimPro ID: 543, Zoho ID: 4795954000000482003  
+[2021-02-19 15:57:07] local.DEBUG: simSite data: 
+stdClass Object
+(
+    [ID] => 542
+    [Name] => test5656
+    [Address] => stdClass Object
+        (
+            [Address] => Gharauli gau3333
+Mayur Bihar Phase -3333
+            [City] => New Delhi333
+            [State] => QLD
+            [PostalCode] => 1100963333
+            [Country] => India
+        )
+
+    [BillingAddress] => stdClass Object
+        (
+            [Address] => Gharauli gau
+Mayur Bihar Phase -3
+            [City] => New Delhi
+            [State] => TAS
+            [PostalCode] => 110096
+        )
+
+    [BillingContact] => 110096
+    [PrimaryContact] => stdClass Object
+        (
+            [Contact] => stdClass Object
+                (
+                )
+
+            [Title] => 
+            [GivenName] => 
+            [FamilyName] => 
+            [Email] => 
+            [WorkPhone] => 
+            [CellPhone] => 
+            [Fax] => 
+            [Position] => 
+            [PreferredNotificationMethod] => 
+        )
+
+    [PublicNotes] => 
+    [PrivateNotes] => 
+    [Zone] => stdClass Object
+        (
+        )
+
+    [PreferredTechs] => Array
+        (
+        )
+
+    [PreferredTechnicians] => Array
+        (
+        )
+
+    [DateModified] => 2021-02-20T01:54:59+10:00
+    [Customers] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [ID] => 379
+                    [CompanyName] => account 6:36 test
+                    [GivenName] => 
+                    [FamilyName] => 
+                )
+
+        )
+
+    [Archived] => 
+    [STCZone] => 
+    [VEECZone] => 
+    [CustomFields] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [CustomField] => stdClass Object
+                        (
+                            [ID] => 3
+                            [Name] => Monitoring
+                            [Type] => List
+                            [IsMandatory] => 1
+                            [ListItems] => Array
+                                (
+                                    [0] => Monitoring Active
+                                    [1] => Monitoring Cancelled
+                                )
+
+                        )
+
+                    [Value] => Monitoring Active
+                )
+
+            [1] => stdClass Object
+                (
+                    [CustomField] => stdClass Object
+                        (
+                            [ID] => 39
+                            [Name] => Subscription Service Available?
+                            [Type] => List
+                            [IsMandatory] => 1
+                            [ListItems] => Array
+                                (
+                                    [0] => Yes
+                                    [1] => No
+                                )
+
+                        )
+
+                    [Value] => Yes
+                )
+
+        )
+
+)
+  
+[2021-02-19 15:57:07] local.DEBUG: Site saved in database. SimPro ID: 542  
+[2021-02-19 15:57:07] local.DEBUG: Array
+(
+    [id] => 289
+    [sim_id] => 542
+    [zoho_id] => 4795954000000483008
+    [name] => test5656
+    [subscription_service_available] => 1
+    [billing_contact] => 110096
+    [address_id] => 482
+    [billingAddress_id] => 481
+    [public_notes] => 
+    [private_notes] => 
+    [archived] => 
+    [customer_id] => 229
+    [created_at] => 2021-02-19T15:40:05.000000Z
+    [updated_at] => 2021-02-19T15:57:07.000000Z
+    [address] => Array
+        (
+            [id] => 482
+            [customer] => 229
+            [address] => 
+            [city] => 
+            [state] => 
+            [postalCode] => 
+            [country] => 
+            [type] => billing
+            [created_at] => 2021-02-18T13:06:50.000000Z
+            [updated_at] => 2021-02-19T13:57:04.000000Z
+        )
+
+    [billing_address] => Array
+        (
+            [id] => 481
+            [customer] => 229
+            [address] => 
+            [city] => 
+            [state] => 
+            [postalCode] => 
+            [country] => 
+            [type] => address
+            [created_at] => 2021-02-18T13:06:50.000000Z
+            [updated_at] => 2021-02-19T13:57:04.000000Z
+        )
+
+)
+  
+[2021-02-19 15:57:07] local.DEBUG: ugfefreigfiuregfiure  
+[2021-02-19 15:57:07] local.DEBUG: zcrmsdk\crm\crud\ZCRMRecord Object
+(
+    [entityId:zcrmsdk\crm\crud\ZCRMRecord:private] => 4795954000000483008
+    [moduleApiName:zcrmsdk\crm\crud\ZCRMRecord:private] => Sites
+    [lineItems:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [lookupLabel:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [owner:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [createdBy:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [modifiedBy:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [createdTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [modifiedTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [fieldNameVsValue:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [properties:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [participants:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [priceDetails:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [layout:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [taxList:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [lastActivityTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [tags:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [tagnames:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [status:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [error:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [rowNumber:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+)
+  
+[2021-02-19 15:57:07] local.ERROR: App\Jobs\SyncSimProSites:203 Error Code INVALID_DATA  
+[2021-02-19 15:57:07] local.ERROR: App\Jobs\SyncSimProSites:204 Error message:  
+[2021-02-19 15:57:07] local.ERROR: App\Jobs\SyncSimProSites:205 Error Details: {"maximum_length":9,"api_name":"Postal_Postcode"} 
+[2021-02-19 15:57:08] local.DEBUG: simSite data: 
+stdClass Object
+(
+    [ID] => 541
+    [Name] => test8:58
+    [Address] => stdClass Object
+        (
+            [Address] => Gharauli gau33
+Mayur Bihar Phase -3
+            [City] => New Delhi
+            [State] => QLD
+            [PostalCode] => 110096
+            [Country] => Australia
+        )
+
+    [BillingAddress] => stdClass Object
+        (
+            [Address] => Gharauli gau33333
+Mayur Bihar Phase -333
+            [City] => New Delhi3
+            [State] => TAS
+            [PostalCode] => 110096333
+        )
+
+    [BillingContact] => 110096333
+    [PrimaryContact] => stdClass Object
+        (
+            [Contact] => stdClass Object
+                (
+                )
+
+            [Title] => 
+            [GivenName] => 
+            [FamilyName] => 
+            [Email] => 
+            [WorkPhone] => 
+            [CellPhone] => 
+            [Fax] => 
+            [Position] => 
+            [PreferredNotificationMethod] => 
+        )
+
+    [PublicNotes] => 
+    [PrivateNotes] => 
+    [Zone] => stdClass Object
+        (
+        )
+
+    [PreferredTechs] => Array
+        (
+        )
+
+    [PreferredTechnicians] => Array
+        (
+        )
+
+    [DateModified] => 2021-02-20T01:29:09+10:00
+    [Customers] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [ID] => 379
+                    [CompanyName] => account 6:36 test
+                    [GivenName] => 
+                    [FamilyName] => 
+                )
+
+        )
+
+    [Archived] => 
+    [STCZone] => 
+    [VEECZone] => 
+    [CustomFields] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [CustomField] => stdClass Object
+                        (
+                            [ID] => 3
+                            [Name] => Monitoring
+                            [Type] => List
+                            [IsMandatory] => 1
+                            [ListItems] => Array
+                                (
+                                    [0] => Monitoring Active
+                                    [1] => Monitoring Cancelled
+                                )
+
+                        )
+
+                    [Value] => Monitoring Active
+                )
+
+            [1] => stdClass Object
+                (
+                    [CustomField] => stdClass Object
+                        (
+                            [ID] => 39
+                            [Name] => Subscription Service Available?
+                            [Type] => List
+                            [IsMandatory] => 1
+                            [ListItems] => Array
+                                (
+                                    [0] => Yes
+                                    [1] => No
+                                )
+
+                        )
+
+                    [Value] => Yes
+                )
+
+        )
+
+)
+  
+[2021-02-19 15:57:08] local.DEBUG: Site saved in database. SimPro ID: 541  
+[2021-02-19 15:57:08] local.DEBUG: Array
+(
+    [id] => 291
+    [sim_id] => 541
+    [zoho_id] => 4795954000000475002
+    [name] => test8:58
+    [subscription_service_available] => 1
+    [billing_contact] => 110096333
+    [address_id] => 482
+    [billingAddress_id] => 481
+    [public_notes] => 
+    [private_notes] => 
+    [archived] => 
+    [customer_id] => 229
+    [created_at] => 2021-02-19T15:44:07.000000Z
+    [updated_at] => 2021-02-19T15:57:08.000000Z
+    [address] => Array
+        (
+            [id] => 482
+            [customer] => 229
+            [address] => 
+            [city] => 
+            [state] => 
+            [postalCode] => 
+            [country] => 
+            [type] => billing
+            [created_at] => 2021-02-18T13:06:50.000000Z
+            [updated_at] => 2021-02-19T13:57:04.000000Z
+        )
+
+    [billing_address] => Array
+        (
+            [id] => 481
+            [customer] => 229
+            [address] => 
+            [city] => 
+            [state] => 
+            [postalCode] => 
+            [country] => 
+            [type] => address
+            [created_at] => 2021-02-18T13:06:50.000000Z
+            [updated_at] => 2021-02-19T13:57:04.000000Z
+        )
+
+)
+  
+[2021-02-19 15:57:08] local.DEBUG: ugfefreigfiuregfiure  
+[2021-02-19 15:57:08] local.DEBUG: zcrmsdk\crm\crud\ZCRMRecord Object
+(
+    [entityId:zcrmsdk\crm\crud\ZCRMRecord:private] => 4795954000000475002
+    [moduleApiName:zcrmsdk\crm\crud\ZCRMRecord:private] => Sites
+    [lineItems:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [lookupLabel:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [owner:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [createdBy:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [modifiedBy:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [createdTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [modifiedTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [fieldNameVsValue:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [properties:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [participants:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [priceDetails:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [layout:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [taxList:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [lastActivityTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [tags:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [tagnames:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [status:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [error:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [rowNumber:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+)
+  
+[2021-02-19 15:57:08] local.DEBUG:  code: 200, status: success  
+[2021-02-19 15:57:08] local.DEBUG: Site created/updated in zoho. SimPro ID: 541, Zoho ID: 4795954000000475002  
+[2021-02-19 15:57:09] local.DEBUG: simSite data: 
+stdClass Object
+(
+    [ID] => 544
+    [Name] => test9:25
+    [Address] => stdClass Object
+        (
+            [Address] => Gharauli gau
+Mayur Bihar Phase -3
+            [City] => New Delhi33
+            [State] => QLD
+            [PostalCode] => 110096
+            [Country] => India
+        )
+
+    [BillingAddress] => stdClass Object
+        (
+            [Address] => Gharauli gau
+Mayur Bihar Phase -3
+            [City] => New Delhi333
+            [State] => VIC
+            [PostalCode] => 110096333
+        )
+
+    [BillingContact] => 110096333
+    [PrimaryContact] => stdClass Object
+        (
+            [Contact] => stdClass Object
+                (
+                )
+
+            [Title] => 
+            [GivenName] => 
+            [FamilyName] => 
+            [Email] => 
+            [WorkPhone] => 
+            [CellPhone] => 
+            [Fax] => 
+            [Position] => 
+            [PreferredNotificationMethod] => 
+        )
+
+    [PublicNotes] => 
+    [PrivateNotes] => 
+    [Zone] => stdClass Object
+        (
+        )
+
+    [PreferredTechs] => Array
+        (
+        )
+
+    [PreferredTechnicians] => Array
+        (
+        )
+
+    [DateModified] => 2021-02-20T01:55:54+10:00
+    [Customers] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [ID] => 379
+                    [CompanyName] => account 6:36 test
+                    [GivenName] => 
+                    [FamilyName] => 
+                )
+
+        )
+
+    [Archived] => 
+    [STCZone] => 
+    [VEECZone] => 
+    [CustomFields] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [CustomField] => stdClass Object
+                        (
+                            [ID] => 3
+                            [Name] => Monitoring
+                            [Type] => List
+                            [IsMandatory] => 1
+                            [ListItems] => Array
+                                (
+                                    [0] => Monitoring Active
+                                    [1] => Monitoring Cancelled
+                                )
+
+                        )
+
+                    [Value] => Monitoring Active
+                )
+
+            [1] => stdClass Object
+                (
+                    [CustomField] => stdClass Object
+                        (
+                            [ID] => 39
+                            [Name] => Subscription Service Available?
+                            [Type] => List
+                            [IsMandatory] => 1
+                            [ListItems] => Array
+                                (
+                                    [0] => Yes
+                                    [1] => No
+                                )
+
+                        )
+
+                    [Value] => Yes
+                )
+
+        )
+
+)
+  
+[2021-02-19 15:57:09] local.DEBUG: Site saved in database. SimPro ID: 544  
+[2021-02-19 15:57:09] local.DEBUG: Array
+(
+    [sim_id] => 544
+    [name] => test9:25
+    [billing_contact] => 110096333
+    [address_id] => 482
+    [billingAddress_id] => 481
+    [public_notes] => 
+    [private_notes] => 
+    [archived] => 
+    [customer_id] => 229
+    [subscription_service_available] => 1
+    [updated_at] => 2021-02-19T15:57:09.000000Z
+    [created_at] => 2021-02-19T15:57:09.000000Z
+    [id] => 292
+    [address] => Array
+        (
+            [id] => 482
+            [customer] => 229
+            [address] => 
+            [city] => 
+            [state] => 
+            [postalCode] => 
+            [country] => 
+            [type] => billing
+            [created_at] => 2021-02-18T13:06:50.000000Z
+            [updated_at] => 2021-02-19T13:57:04.000000Z
+        )
+
+    [billing_address] => Array
+        (
+            [id] => 481
+            [customer] => 229
+            [address] => 
+            [city] => 
+            [state] => 
+            [postalCode] => 
+            [country] => 
+            [type] => address
+            [created_at] => 2021-02-18T13:06:50.000000Z
+            [updated_at] => 2021-02-19T13:57:04.000000Z
+        )
+
+)
+  
+[2021-02-19 15:57:09] local.DEBUG: ugfefreigfiuregfiure  
+[2021-02-19 15:57:09] local.DEBUG: zcrmsdk\crm\crud\ZCRMRecord Object
+(
+    [entityId:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [moduleApiName:zcrmsdk\crm\crud\ZCRMRecord:private] => Sites
+    [lineItems:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [lookupLabel:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [owner:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [createdBy:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [modifiedBy:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [createdTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [modifiedTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [fieldNameVsValue:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [properties:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [participants:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [priceDetails:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [layout:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [taxList:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [lastActivityTime:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [tags:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [tagnames:zcrmsdk\crm\crud\ZCRMRecord:private] => Array
+        (
+        )
+
+    [status:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [error:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+    [rowNumber:zcrmsdk\crm\crud\ZCRMRecord:private] => 
+)
+  
+[2021-02-19 15:57:09] local.DEBUG:  code: 201, status: success  
+[2021-02-19 15:57:09] local.DEBUG: Site created/updated in zoho. SimPro ID: 544, Zoho ID: 4795954000000476007  
